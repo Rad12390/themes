@@ -1,0 +1,130 @@
+/*------------------------------------------------------------------
+6. Blog / .blog-post
+-------------------------------------------------------------------*/
+.blog-post-title{
+	font-weight: 700;
+}
+.blog-post-meta .date span.month{
+	font-weight: 700;
+	font-weight: 900;
+}
+
+/*------------------------------------------------------------------
+5. Widget / .widget
+-------------------------------------------------------------------*/
+.widget .title{
+	font-weight: 700;
+}
+.tagcloud a,
+.tags a{
+	font-weight: 700;
+}
+/*------------------------------------------------------------------
+8. Footer Bottom / #footer-bottom
+-------------------------------------------------------------------*/
+.footer-menu{
+	font-weight: 700;
+}
+/*------------------------------------------------------------------
+9. Shopping Cart / .lpd-shopping-cart
+-------------------------------------------------------------------*/
+.lpd-shopping-cart .lpd-cart-total span{
+	font-weight: 700;
+}
+.lpd-cart-list-title a{
+	font-weight: 700;
+}
+/*------------------------------------------------------------------
+13. Visual Composer/ .wpb_row
+-------------------------------------------------------------------*/
+.wordpress-456sailing .vc_progress_bar .vc_single_bar{
+	font-weight: 700;
+}
+.lpd-b-sub-title{
+	font-weight: 300;
+}
+.mega_header .sub-title,
+.mh_description{
+	font-weight: 300;
+}
+.mh2_description,
+.mh2_content{
+	font-weight: 300;
+}
+.working-time ul li span{
+	font-weight: 700;
+}
+.working-time ul li span.right{
+	font-weight: 300;
+}
+.lpd-testimonial .t-meta,
+.lpd-testimonial h5{
+	font-weight: 300;
+}
+.progress-title{
+	font-weight: 300;
+}
+.member-position{
+	font-weight: 300;
+}
+.lpd-icon-header h3{
+	font-weight: 300;
+}
+.lpd_icon_header_content.font_type_2{
+	font-weight: 300;		
+}
+.lpd-badge{
+	font-weight: 700;
+}
+.lpd-banner h3{
+	font-weight: 700;
+}
+.wordpress-456sailing .wpb_tabs .wpb_tabs_nav li{
+	font-weight: 700;
+}
+.vc_lpd_icon_working_time ul li span{
+	font-weight: 700;
+}
+.vc_lpd_front_container ul li span{
+	font-weight: 700;
+}
+.wordpress-456sailing .wpb_accordion .wpb_accordion_wrapper .wpb_accordion_header a{
+	font-weight: 700;
+}
+.wordpress-456sailing .wpb_tour .wpb_tabs_nav li{
+	font-weight: 700;
+}
+.lpd-testimonial h5{
+	font-weight: 700;
+}
+.wordpress-456sailing .vc_separator.separator-style-3 h4{
+	font-weight: 700;
+}
+
+/*------------------------------------------------------------------
+24. scotchPanels
+-------------------------------------------------------------------*/
+#shopping_cart_panel .shopping_cart_title{
+	font-weight: 700;
+}
+
+/*------------------------------------------------------------------
+woocommerce.css
+-------------------------------------------------------------------*/
+.lpd-product-thumbnail .wc-forward,
+.lpd-product-btn{
+	font-weight: 700;
+}
+.wordpress-456sailing .woocommerce #content div.product .product_title,
+.wordpress-456sailing .woocommerce div.product .product_title,
+.wordpress-456sailing.woocommerce-page #content div.product .product_title,
+.wordpress-456sailing.woocommerce-page div.product .product_title{
+	font-weight: 700;
+}
+
+/*------------------------------------------------------------------
+menu3d.css
+-------------------------------------------------------------------*/
+.menu3dmega .menu-title{
+    font-weight: 700;
+}

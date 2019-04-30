@@ -1,0 +1,155 @@
+body{
+	font-family: 'museo-slab', serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6{
+	font-family: 'museo-slab', serif;
+}
+
+
+
+.tagcloud a, .tags a{
+	font-family: 'Lato', sans-serif;
+}
+.cart-icon .count{
+	font-family: 'Lato', sans-serif;
+}
+.wpml-switcher > .current-lang .language_code{
+	font-family: 'Lato', sans-serif;
+}
+.fm-item-title{
+	font-family: 'Lato', sans-serif;	
+}
+#footer-meta .sm_label{
+	font-family: 'Lato', sans-serif;	
+}
+.tooltip{
+	font-family: 'Lato', sans-serif;	
+}
+.lpd-product-data{
+	font-family: 'Lato', sans-serif;
+}
+.lpd-out-of-s,
+.lpd-onsale{
+	font-family: 'Lato', sans-serif;
+}
+.wordpress-456sail .woocommerce #content .quantity,
+.wordpress-456sail .woocommerce .quantity,
+.wordpress-456sail.woocommerce-page #content .quantity,
+.wordpress-456sail.woocommerce-page .quantity{
+	font-family: 'Lato', sans-serif;
+}
+.wordpress-456sail .woocommerce #content div.product p.price,
+.wordpress-456sail .woocommerce #content div.product span.price,
+.wordpress-456sail .woocommerce div.product p.price,
+.wordpress-456sail .woocommerce div.product span.price,
+.wordpress-456sail.woocommerce-page #content div.product p.price
+.wordpress-456sail.woocommerce-page #content div.product span.price,
+.wordpress-456sail.woocommerce-page div.product p.price,
+.wordpress-456sail.woocommerce-page div.product span.price{
+	font-family: 'Lato', sans-serif;
+}
+.wordpress-456sail .woocommerce table.shop_table td.product-subtotal,
+.wordpress-456sail.woocommerce-page table.shop_table td.product-subtotal,
+.wordpress-456sail .woocommerce table.shop_table td.product-subtotal,
+.wordpress-456sail.woocommerce-page table.shop_table td.product-subtotal,
+.wordpress-456sail .woocommerce table.shop_table td.product-price,
+.wordpress-456sail.woocommerce-page table.shop_table td.product-price,
+.wordpress-456sail .woocommerce table.shop_table td.product-price,
+.wordpress-456sail.woocommerce-page table.shop_table td.product-price{
+	font-family: 'Lato', sans-serif;	
+}
+.mh_description.mh-font-style,
+.mega_header .sub-title{
+	font-family: 'Lato', sans-serif;	
+}
+.mh2-font-style{
+	font-family: 'Lato', sans-serif;	
+}
+.pw-font-style{
+	font-family: 'Lato', sans-serif;	
+}
+.secondary-font-style{
+	font-family: 'Lato', sans-serif;	
+}
+.lpd_header_content.font_type_2{
+	font-family: 'Lato', sans-serif;		
+}
+.vc_progress_bar{
+	font-family: 'Lato', sans-serif;
+}
+.lpd_icon_header_content.font_type_2{
+	font-family: 'Lato', sans-serif;		
+}
+.lpd-banner h3{
+	font-family: 'Lato', sans-serif;
+}
+.lpd-module.font-type-2 h3{
+	font-family: 'Lato', sans-serif;
+}
+#title-breadcrumb h1{
+	font-family: 'Lato', sans-serif;
+}
+.blog-post-title{
+	font-family: 'Lato', sans-serif;
+}
+.blog-post-meta .date span.month{
+	font-family: 'Lato', sans-serif;
+}
+.wordpress-456sailing .woocommerce #content div.product .product_title,
+.wordpress-456sailing .woocommerce div.product .product_title,
+.wordpress-456sailing.woocommerce-page #content div.product .product_title,
+.wordpress-456sailing.woocommerce-page div.product .product_title{
+	font-family: 'Lato', sans-serif;
+}
+.wordpress-456sailing .woocommerce #content div.product p.price,
+.wordpress-456sailing .woocommerce #content div.product span.price,
+.wordpress-456sailing .woocommerce div.product p.price,
+.wordpress-456sailing .woocommerce div.product span.price,
+.wordpress-456sailing.woocommerce-page #content div.product p.price,
+.wordpress-456sailing.woocommerce-page #content div.product span.price,
+.wordpress-456sailing.woocommerce-page div.product p.price,
+.wordpress-456sailing.woocommerce-page div.product span.price{
+	font-family: 'Lato', sans-serif;
+}
+.lpd-testimonial h5{
+	font-family: 'Lato', sans-serif;	
+}
+.lpd-product-category-wrap .lpd-product-category-content h3{
+	font-family: 'Lato', sans-serif;	
+}
+.wordpress-456sailing .vc_separator.separator-style-3 h4{
+	font-family: 'Lato', sans-serif;	
+}
+h3.tw-title{
+	font-family: 'Lato', sans-serif;	
+}
+.feac-title.feac-title-style2 h4{
+	font-family: 'Lato', sans-serif;
+}
+.total-cart-wrap h2,
+#order_review_heading{
+	font-family: 'Lato', sans-serif;
+}
+.lpd-checkout-accordion .panel-title a{
+	font-family: 'Lato', sans-serif;
+}
+.lpd-product-title-secondary h3{
+	font-family: 'Lato', sans-serif;
+}
+#shopping_cart_panel .shopping_cart_title{
+	font-family: 'Lato', sans-serif;
+}
+.lpd-shopping-cart-title{
+	font-family: 'Lato', sans-serif;
+}

@@ -1,0 +1,1 @@
+We highly recommend you before installation to read documentation file ../documentation/index.html

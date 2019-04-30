@@ -1,0 +1,1371 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>456Sailing eCommerce Wordpress Theme</title>
+	
+	<meta name="description" content="Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form here. Thanks so much!">
+	<meta name="author" content="lidplussdesign">
+	<meta name="copyright" content="lidplussdesign">
+	<meta name="generator" content="">
+	<meta name="date" content="">
+	
+	<link rel="stylesheet" href="css/lpd_documenter_style.css" media="all">
+	
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+	<script src="js/jquery.1.6.4.js"></script>
+	
+	<script src="js/jquery.scrollTo-1.4.2-min.js"></script>
+	<script src="js/jquery.easing.js"></script>
+	
+	<link rel="stylesheet" href="css/shDocumenter.css" media="screen">
+	<script src="js/shCore.js"></script>
+	<script src="js/shBrushCss.js"></script>
+	<script src="js/shBrushJScript.js"></script>
+	<script>SyntaxHighlighter.defaults['toolbar'] = false;SyntaxHighlighter.all();</script>
+
+	<script>document.createElement('section');var duration=500,easing='swing';</script>
+	<script src="js/script.js"></script>
+	
+	<style>
+		html{color:#383838;}
+		::-moz-selection{background:#444444;color:#DDDDDD;}
+		::selection{background:#444444;color:#DDDDDD;}
+		#documenter_sidebar #documenter_logo{background-image:url(http://support.lpd-themes.com/theme-docs/456sailing/logo.png);}
+		a{color:#0000FF;}
+		#documenter_sidebar, #documenter_sidebar ol a{background-color:#DDDDDD;color:#222222;}
+		#documenter_sidebar ol a{-webkit-text-shadow:1px 1px 0px #EEEEEE;-moz-text-shadow:1px 1px 0px #EEEEEE;text-shadow:1px 1px 0px #EEEEEE;}
+		#documenter_sidebar ol{border-top:1px solid #AAAAAA;}
+		#documenter_sidebar ol a{border-top:1px solid #EEEEEE;border-bottom:1px solid #AAAAAA;color:#444444;}
+		#documenter_sidebar ol a:hover{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_sidebar ol a.current{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body>
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ol id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+			<li><a href="#requirements">Requirements</a></li>
+			<li><a href="#installation">Installation</a></li>
+			<li><a href="#update">Update</a></li>
+			<li><a href="#demo">Demo</a></li>
+            <li><a href="#backupbuddy">Backupbuddy</a></li>
+            <li><a href="#theme_options">Theme Options</a></li>
+            <li><a href="#page_builder">Page Builder</a></li>
+            <li><a href="#header">Header</a></li>
+            <li><a href="#widget-area">Widget Area</a></li>
+            <li><a href="#menu-locations">Menu Locations</a></li>
+            <li><a href="#pages">Pages</a></li>
+            <li><a href="#premium_plugins">Premium Plugins</a></li>
+			<li><a href="#shortcodes">Shortcodes</a></li>
+			<li><a href="#sources_and_credits">Sources & Credits</a></li>
+			<li><a href="#extras">Extras</a></li>
+			<li><a href="#support">Support</a></li>
+			<li><a href="#purchase_code">Purchase Code</a></li>
+			<li><a href="#change_log">Change Log</a></li>
+		</ol>
+		<div id="documenter_copyright">Copyright <a href="http://themeforest.net/user/lidplussdesign">lidplussdesign</a> 2015<br>
+		made with the <a href="http://rxa.li/documenter">Documenter v1.6</a> 
+		</div>
+	</div>
+	<div id="documenter_content">
+    	<section id="documenter_cover">
+            <h1>456Sailing</h1>
+            <h2>eCommerce Wordpress Theme v1+</h2>
+            <hr/>
+            <ul>
+                <li>Created: 30/03/2014</li>
+                <li>By: lidplussdesign</li>
+                <li>Support: <a href="http://support.lpd-themes.com/">http://support.lpd-themes.com/</a></li>
+            </ul>
+            <p>Thank you for purchasing this theme. If you have any questions that are beyond the scope of this help file, please feel free to email via <a href="http://themeforest.net/user/lidplussdesign">themeforest contact form</a>. Thanks so much!</p>
+            <p><b>Theme Compatibility</b>
+            <iframe src="http://themes.lpd-themes.com/compatibily/comp_456sailing.txt" width="100%" height="200"></iframe>
+
+        </section>
+        
+        <!-- // Requirements -->
+        
+        <section id="requirements">
+        	<h3>Requirements</h3><hr class="notop">
+        	<p>Many issues you may run into such as demo content fails when importing, plugins conflict in admin panel all these issues are related to low PHP configuration. The solution is to increase the PHP limits.</p>
+        	<h5>PHP Configuration Limits</h5>
+        	<ul>
+	        	<li><b>max_execution_time 300</b></li>
+	        	<li><b>memory_limit 128M</b></li>
+	        	<li><b>post_max_size 32M</b></li>
+	        	<li><b>upload_max_filesize 32M</b></li>
+	        	<li><b>max_input_vars 3000</b></li>
+        	</ul>
+        	<h5>How To Check PHP Limits</h5>
+        	<p>Check your current PHP limit by installing <a href="https://wordpress.org/plugins/wordpress-php-info/">Wordpress phpinfo()</a> plugin.</p>
+        	<h5>How To Increase PHP Limits</h5>
+        	<p>Follow <a href="https://lpdthemes.ticksy.com/article/3890/">these 5 tips</a> to increase your web-host’s PHP limit.</p>
+        </section>
+        
+		<!-- // Installation -->
+        
+        <section id="installation">
+        	<h3>Installation</h3><hr class="notop">
+        	
+        	<h4><u>Wordpress Installation</u></h4>
+        	
+        	<ul>
+	        	<li>Navigate to "Appearance" => "Themes" => "Add New", and click the "Upload Theme" button.</li>
+	        	<li>Navigate to find the zipped file on your computer and hit "Install Now"</li>
+				<li>Activate the installed theme by going to "Appearance" => "Themes" and clicking the "Activate" button.</li>
+				<li>Once you activate the theme, you will see the notification message, click the "Begin installing plugins" button to go to "Install Required Plugins" where you need to install and activate the required plugins.<br>
+					<img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-04-21_at_14.50.01.png" />
+				</li>
+				<li>Click the "Install" button on each plugin to start installing them and activate them after installation.</li>
+        	</ul>
+        	<p><iframe src="https://www.youtube.com/embed/vrpo4dP5PLc" allowfullscreen="" frameborder="0" height="315" width="560"></iframe></p>
+        	
+			<h5>Uploading Issue</h5>
+			<ul>
+				<li>If you get the <b>"Are You Sure You Want To Do This"</b> message it means your PHP "upload_max_filesize" upload file size limit doesn't allow you to do this. If it happens install/update the theme via FTP or contact your hosting company and ask them to increase your "upload_max_filesize" limit.</li>
+			</ul>
+        	
+        	<h4><u>FTP Installation</u></h4>
+        	
+        	<ul>
+	        	<li>Log into your hosting via an FTP client.</li>
+	        	<li>Unzip theme zipped file and only use the extracted theme folder.</li>
+				<li>Upload the extracted theme folder into "wp-content" => "themes" folder.</li>
+				<li>Activate the installed theme by going to "Appearance" => "Themes" and clicking the "Activate" button.</li>
+				<li>Once you activate the theme, you will see the notification message, click the "Begin installing plugins" button to go to "Install Required Plugins" where you need to install and activate the required plugins.<br>
+					<img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-04-21_at_14.50.01.png" />
+				</li>
+				<li>Click the "Install" button on each plugin to start installing them and activate them after installation.</li>
+        	</ul>
+        	<p><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-04-17_at_13.15.44.png" /></p>
+        	
+        	
+        	<h4><u>Plugin Installation</u></h4>
+        	
+        	<p>The theme includes 9 plugins that will need to be installed and activated: Contact Form 7, Easy Tables Visual Composer, Multiple Images per Variation for WooCommerce, Portfolio Posts, Slider Revolution Responsive WordPress Plugin, Team Posts, Ultimate Addons for Visual Composer, Visual Composer in Sidebars Addon, WPBakery Visual Composer</p>
+        	
+			<ul>
+	        	<li><b>Contact Form 7</b> - contact form plugin, created by <a href="https://wordpress.org/plugins/contact-form-7/">Takayuki Miyoshi</a>.</li>
+	        	<li><b>Easy Tables Visual Composer</b> - powerful table manager for VC, created by <a href="http://codecanyon.net/item/easy-tables-table-manager-for-visual-composer/5559903">wpbakery</a>.</li>
+	        	<li><b>Multiple Images per Variation for WooCommerce</b> - premium plugin allows you to select image sizes, slider settings, zoom settings, lightbox settings and thumbnail settings, created by <a href="http://codecanyon.net/item/multiple-images-per-variation-for-woocommerce/2867927">jamesckemp</a>.</li>
+	        	<li><b>Portfolio Posts</b> - theme companion plugin for portfolio post.</li>
+	        	<li><b>Slider Revolution Responsive WordPress Plugin</b> - premium slider plugin, created by <a href="http://codecanyon.net/item/slider-revolution-responsive-wordpress-plugin/2751380">themepunch</a>.</li>
+	        	<li><b>Team Posts</b> - theme companion plugin for portfolio post.</li>
+	        	<li><b>Ultimate Addons for Visual Composer</b> - premium plugin adds several premium elements in your VC, created by <a href="http://codecanyon.net/item/ultimate-addons-for-visual-composer/6892199">BrainstormForce</a>.</li>
+	        	<li><b>Visual Composer in Sidebars Addon</b> - premium plugin allows you to add any VC element to your website’s sidebar area as a widget, created by <a href="http://codecanyon.net/item/visual-composer-in-sidebars-addon/8558485">wpwishweb</a>.</li>
+	        	<li><b>WPBakery Visual Composer</b> - premium drag and drop frontend and backend page builder plugin created by <a href="http://codecanyon.net/item/visual-composer-page-builder-for-wordpress/242431">wpbakery</a>.</li>
+			</ul>
+			
+        	<h5>Additional Plugins</h5>
+        	
+			<ul>
+	        	<li><b>WooCommerce</b> - free plugin allows you to create an online shop, theme has full integration with this plugin, created by <a href="https://wordpress.org/plugins/woocommerce/">WooThemes</a>.</li>
+			</ul>
+			
+			<h5>How to Install?</h5>
+        	<ul>
+				<li>Once you activate the theme, you will see the notification message, click the "Begin installing plugins" button to go to "Install Required Plugins" where you need to install and activate the required plugins.<br>
+					<img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-04-21_at_14.50.01.png" />
+				</li>
+				<li>Click the "Install" button on each plugin to start installing them and activate them after installation.</li>
+        	</ul>
+
+        </section>
+        
+		<!-- // Update -->
+        
+        <section id="update">
+           
+           <h3>Update</h3><hr class="notop">
+           
+           <h4><u>Theme Update</u></h4>
+           	
+           	<h5>Auto Updater</h5>
+           	
+           	<p>The easiest way to update your theme is to use Auto Updater.</p>
+           	<ol>
+	           	<li>Auto Updater can only be used after purchase code verification.</li>
+	           	<li>Navigate to "Appearance" => "Theme Options" => "General Settings".</li>
+	           	<li>Find "Purchase Code" field and enter your purchase code for verification. <a href="https://lpdthemes.ticksy.com/article/3892/">Find Your Purchase Code</a>.<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-04_at_13.24.28.png" /></li>
+	           	<li>And click to "Save Changes".</li>
+	           	<li>Once you have verify the auto updater, you will get notified in the "Dashboard" => "Updates" and "Themes" section when a new theme update is ready to be installed.<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-04_at_13.22.34.png" /></li>
+           	</ol>
+           
+			<h5>Traditional Method</h5>
+			<ul>
+				<li>Log into your "ThemeForest" account and navigate to your "Downloads" and find the theme purchase.</li>
+				<li>Find "Download" button and choose to download the <b>2.)</b>"Installable WordPress file", which is installable Wordpress theme (zipped) file.<br>
+					<img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-04-21_at_16.39.49.png" />
+				</li>
+				<li>Decide how you want to install the update via FTP or via WordPress</li>
+				<li><p><strong>Upload via FTP</strong></p>
+					<ul>
+						<li>Go to "wp-content" => "themes" folder, find theme folder and delete it, your content and theme settings will not be lost.</li>
+			        	<li>Unzip <b>2.)</b> installable Wordpress theme (zipped) file and only use the extracted theme folder.</li>
+						<li>Upload the extracted theme folder into "wp-content" => "themes" folder.</li>
+						<li>Activate the installed theme by going to "Appearance" => "Themes" and clicking the "Activate" button.</li>
+						<li>If theme update includes plugin updates you will see notification message.<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-04-21_at_15.53.10.png" /></li>
+					</ul>
+				</li>
+				<li><p><strong>Upload via Wordpress</strong></p>
+					<ul>
+						<li>Deactivate current theme version in "Appearance" => "Themes" by activating a different theme, once the theme is deactivated delete it, your content and theme settings will not be lost.</li>
+						<li>Navigate to "Appearance" => "Themes" => "Add New", and click the "Upload Theme" button.</li>
+						<li>Navigate to find <b>2.)</b> installable Wordpress theme (zipped) file on your computer and hit "Install Now"</li>
+						<li>Activate the installed theme by going to "Appearance" => "Themes" and clicking the "Activate" button.</li>
+						<li>If theme update includes plugin updates you will see notification message.<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-04-21_at_15.53.10.png" /></li>
+					</ul>
+				</li>
+				<li>
+					<p><strong>Uploading Issue</strong></p>
+					<ul>
+						<li>If you get the <b>"Are You Sure You Want To Do This"</b> message it means your PHP "upload_max_filesize" upload file size limit doesn't allow you to do this. If it happens install/update the theme via FTP or contact your hosting company and ask them to increase your "upload_max_filesize" limit.</li>
+						<li>If you get the <b>"Destination folder already exists"</b> after failed theme installation it means you have already the theme with the same folder name. We recommend you to use auto updater or you update the theme via FTP.</li>
+					</ul>
+				</li>
+			</ul>
+			
+			<h4><u>Plugins Update</u></h4>
+			
+        	<h5>How to Update Plugins?</h5>
+        	
+        	<p>You will receive notification message, the message will let you know to update the required or recommended plugins. Premium plugin updates are included with the new theme version, we update plugins only when we issue theme updates.</p>
+        	<p><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-04-21_at_15.53.10.png" /></p>
+           
+        </section>
+        
+		<!-- // Demo -->
+        
+        <section id="demo">
+        
+        	<h3>Demo</h3><hr class="notop">
+        	<p>When you first install the theme, it will not contain any content that you might have seen in the live demo. We are using standard method for importing XML dummy data with Wordpress importer. There are two ways you can import theme content, the demo with online shop content and the demo for corporate project, there is only one difference XML dummy data for corporate project doesn't have data for WooCommerce plugin.</p>
+        	
+        	<h5>About The Demo Content</h5>
+        	<ul>
+	        	<li><b>Images</b> - demo images are with watermarks because they are licensed stock items that are not allowed to be shared. If you want to have similar content for your project you can find the demo images on <a href="http://www.shutterstock.com/">Shutterstock</a>, the list of items please find on <a href="https://lpdthemes.ticksy.com/article/3894/">this page</a>.</li>
+	        	<li><b>Videos</b> - demo self hosted videos are not included because they are licensed stock items that are not allowed to be shared. If you want to have similar content for your project you can find the demo videos on <a href="http://www.videohive.net/">Videohive</a>, the list of items please find on <a href="https://lpdthemes.ticksy.com/article/3894/">this page</a>.</li>
+	        	<li><b>Slider</b> - XML dummy data doesn't include data for slider. If you want to import sliders please see <a href="https://lpdthemes.ticksy.com/article/3895/">this article</a>.</li>
+	        	<li><b>Portfolio</b> - XML dummy data doesn't include data for "Essential Grid" portfolio plugin. If you want to import data of portfolio plugin please see <a href="https://lpdthemes.ticksy.com/article/3895/">this article</a>.</li>
+	        	<li><b>Widgets</b> - XML dummy data doesn't include widget settings, activate widgets in "Appearance" => "Widgets", see <a href="https://lpdthemes.ticksy.com/article/3896/">this article</a> how to use widgets.</li>
+	        	<li><b>Menus</b> - The imported menu is not assigned to theme location, activate it in "Appearance" => "Menus" => "Manage Locations".</li>
+        	</ul>
+        	
+        	<h5>Check Before Import</h5>
+        	<ul>
+	        	<li><b>PHP Limits</b> - please ensure your server meets all requirements for a successful import, see <a href="https://lpdthemes.ticksy.com/article/3888/">theme requirements</a>.</li>
+        	</ul>
+        	
+        	<h5>Import Demo For an Online Shop</h5>
+			<p>Use this method if you need the content for an online shop.</p>
+        	<ol>
+	        	<li>Install and activate "WPBakery Visual Composer".</li>
+	        	<li>Install and activate "Easy Tables Visual Composer".</li>
+	        	<li>Install and activate "Essential Grid WordPress Plugin".</li>
+	        	<li>Install and activate "Portfolio Posts".</li>
+	        	<li>Install and activate "Slider Revolution Responsive WordPress Plugin".</li>
+	        	<li>Install and activate "Team Posts".</li>
+	        	<li>Install and activate "Ultimate Addons for Visual Composer".</li>
+	        	<li>Install and activate "Visual Composer in Sidebars Addon".</li>
+	        	<li>Install and activate <a href="http://wordpress.org/extend/plugins/woocommerce/">WooCommerce</a>, <a href="https://lpdthemes.ticksy.com/article/3897/">install WooCommerce</a> plugin.</li>
+	        	<li>After activation of "WooCommerce" plugin you will see notification message to install WooCommerce pages, don't install WooCommerce pages, just skip this message.<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-04-22_at_13.05.40.png" /></li>
+	        	<li>Install and activate "Multiple Images per Variation for WooCommerce".</li>
+	        	<li>After activation of "Multiple Images per Variation for WooCommerce" plugin you will see notification message to install "Redux Frameworks" plugin. Install and activate it.<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-04-22_at_12.57.53.png" /></li>
+	        	<li>Navigate to ../import-files/dummy-data/<b>ecommerce</b>/ folder to find XML dummy data file for importer.<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-04-22_at_13.21.02.png" /></li>
+	        	<li>Upload XML dummy data file to "Tools" => "Import" => "Wordpress", if you import data with attachments please be patient and wait for it to complete the uploading may take up to 15 minutes.</li>
+	        	<li>The imported "main" navigation is not assigned to theme location, import data doesn't have these settings, go to "Appearance" => "Menus" => "Manage Locations" to activate it in "Primary Menu" theme location.<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-04-22_at_13.40.07.png" /></li>
+	        	<li>If you are planning to use more that 80+ menu items in "Appearance" > "Menus", we recommend you to increase "max_input_vars = 3000" otherwise you can lost menu items.</li>
+	        	<li>Select your just imported "Shop" page in Woocommrece settings => "Products" => "Display".<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-04-22_at_13.54.13.png" /></li>
+	        	<li>Select your just imported "Checkout" and "Cart" pages in Woocommrece settings => "Checkout".<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-04-22_at_13.56.57.png" /></li>
+	        	<li>The imported data doesn't include widget settings, activate widgets in "Appearance" => "Widgets", see <a href="https://lpdthemes.ticksy.com/article/3896/">this article</a> how to use widgets.</li>
+	        	<li>See how <a href="https://lpdthemes.ticksy.com/article/3895/">to import</a> "Slider Revolution" data.</li>
+	        	<li>See how <a href="https://lpdthemes.ticksy.com/article/3895/">to import</a> "Essential Grid" data.</li>
+        	</ol>
+        	
+        	<h5>Import Demo For Corporate Project</h5>
+			<p>Use this method if you don't need the content for an online shop.</p>
+        	<ol>
+	        	<li>Install and activate "WPBakery Visual Composer".</li>
+	        	<li>Install and activate "Easy Tables Visual Composer".</li>
+	        	<li>Install and activate "Essential Grid WordPress Plugin".</li>
+	        	<li>Install and activate "Portfolio Posts".</li>
+	        	<li>Install and activate "Slider Revolution Responsive WordPress Plugin".</li>
+	        	<li>Install and activate "Team Posts".</li>
+	        	<li>Install and activate "Ultimate Addons for Visual Composer".</li>
+	        	<li>Install and activate "Visual Composer in Sidebars Addon".</li>
+	        	<li>Navigate to ../import-files/dummy-data/<b>corporate</b>/ folder to find XML dummy data file for importer.<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-04-22_at_14.20.35.png" /></li>
+	        	<li>Upload XML dummy data file to "Tools" => "Import" => "Wordpress", if you import data with attachments please be patient and wait for it to complete the uploading may take up to 15 minutes.</li>
+	        	<li>The imported "main" navigation is not assigned to theme location, import data doesn't have these settings, go to "Appearance" => "Menus" => "Manage Locations" to activate it in "Primary Menu" theme location.<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-04-22_at_13.40.07.png" /></li>
+	        	<li>If you are planning to use more that 80+ menu items in "Appearance" > "Menus", we recommend you to increase "max_input_vars = 3000" otherwise you can lost menu items.</li>
+	        	<li>The imported data doesn't include widget settings, activate widgets in "Appearance" => "Widgets", see <a href="https://lpdthemes.ticksy.com/article/3896/">this article</a> how to use widgets.</li>
+	        	<li>See how <a href="https://lpdthemes.ticksy.com/article/3895/">to import</a> "Slider Revolution" data.</li>
+	        	<li>See how <a href="https://lpdthemes.ticksy.com/article/3895/">to import</a> "Essential Grid" data.</li>
+        	</ol>
+        	
+			<h5>Importing Issues</h5>
+			<ul>
+				<li>If you get the <b>"Sorry but your import failed"</b> message or <b>"500 Internal Server Error"</b> error usually it means importing process doesn't work with your web-host. You have to contact your web-host and ask to increase your PHP "max_execution_time 300" and "memory_limit 128M" limits.</li>
+				<li><b>Portfolio pages are empty</b> - your portfolio pages are empty because "Essential Grid" plugin doesn't have any published grids, <a href="https://lpdthemes.ticksy.com/article/3895/">import the content</a> for "Essential Grid" plugin.</li>
+				<li><b>Revolution Slider Error: Slider with alias "slider-name" not found</b> - you need to <a href="https://lpdthemes.ticksy.com/article/3895/">import slides</a> for "Revolution Slider" if you see an error like that after importing process.</li>
+				<li><b>Main navigation doesn't look organized</b> - XML dummy data file doesn't have the settings for "Menus", go to "Appearance" => "Menus" => "Manage Locations" to activate it in "Primary Menu" theme location.<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-04-22_at_13.40.07.png" /></li>
+				<li><b>Menu doesn't look like mega dropdown menu</b> - it happens because standard Wordpress importer does not have these options to import custom menu settings. See <a href="https://lpdthemes.ticksy.com/article/3898/">this article</a> how to set mega dropdown menu.<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-04-22_at_17.46.16.png" /></li>
+			</ul>
+			
+			<h5>Importing Tips</h5>
+			<ul>
+				<li>If the importing process has been interrupted or you want to repeat it since the beginning, we recommend you to remove all content from your database. There is fast and easy way to get rid of content with <a href="https://wordpress.org/plugins/wordpress-reset/">Wordpress Reset</a> plugin. "Wordpress Reset" plugin will remove all content from your database, it doesn't remove plugins, but will deactivate them and remove all pages, posts, menus, plugins data, widget data, theme settings and theme options.</li>
+				<li>If you need shortcode of one page please use our "Test Drive" demo version, you can copy the code of any page you need, see <a href="https://lpdthemes.ticksy.com/article/3897/">this article</a> how to get access to "Test Drive" demo version.</li>
+			</ul>
+        
+        </section>
+        
+		<!-- // Backupbuddy -->
+        
+        <section id="backupbuddy">
+        
+        	<h3>Backupbuddy</h3><hr class="notop">
+        	
+        	<h5>Read Me!</h5>
+        	
+        	<ul>
+	        	<li><strong>Important!</strong> "Backupbuddy" (importer) doesn't required installation of Wordpress software, software is included to import file.</li>
+	        	<li>Download "Backupbuddy" files on: <a href="https://www.dropbox.com/s/cc2d9dir9w8xiw1/import-456sailing-1-0.zip">https://www.dropbox.com/s/cc2d9dir9w8xiw1/import-456sailing-1-0.zip</a>, password: <strong>lpdclient</strong></li>
+	        	<li><strong>"Backupbuddy" plugin license</strong>, after importing preview website on your server, you will have activated "Backupbuddy" wordpress plugin, the plugin license is not included to "456Sailing" package, for licensing you have to have personal "Backupbuddy" license otherwise you will not be able to get any support or updates on any site that doesn't have a current license, more information about plugin on <a href="http://ithemes.com/purchase/backupbuddy/">http://ithemes.com/purchase/backupbuddy/</a>.</li>
+	        	<li><strong>Backupbuddy & Your Host!</strong> Before you start your restoring process, please check "Backupbuddy" compatibility with your hosting, <a href="http://ithemes.com/codex/page/BackupBuddy:_Hosts">http://ithemes.com/codex/page/BackupBuddy:_Hosts</a>.</li>
+        	</ul>
+            
+            <h5>How to use Backupbuddy (importer)?</h5>
+            <ul>
+            	<li><strong>Important! Don't install Wordpress software if you are using "Backupbuddy"</strong>, "Backupbuddy" (import) doesn't require installation of Wordpress software, software is included to the backup (restore) file.</li>
+                <li>Save import files locally, download it on: <a href="https://www.dropbox.com/s/cc2d9dir9w8xiw1/import-456sailing-1-0.zip">https://www.dropbox.com/s/cc2d9dir9w8xiw1/import-456sailing-1-0.zip</a> password: <strong>lpdclient</strong></li>
+                <li>Upload the backup (import) file and ImportBuddy script (importbuddy.php) to the directory where you would like your WordPress site to be installed on the destination server. <i>The importbuddy.php script will restore all files (including WordPress) from full backups.</i> </li>
+                <li>Navigate to ImportBuddy script in your web browser on the destination server <i>for example : http://your_domain.com/importbuddy.php</i>. You will be prompted for password (password: <strong>lpdclient</strong>) before you may continue.</li>
+                <li>If you get "Error #224834, This directory is not write enabled. Please verify write permissions to continue" please change directory permission to "777", if you are not familiar how to do it please find information on <a href="http://www.stadtaus.com/en/tutorials/chmod-ftp-file-permissions.php">http://www.stadtaus.com/en/tutorials/chmod-ftp-file-permissions.php</a></li>
+                <li>Follow the import instructions on screen. <i>Note: You must create a mySQL database on the destination server if one does not exist.</i></li>
+				<li><b>Please Make Sure!</b> Parameters should have "Pass" status otherwise you may have the problems with restore process.<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-04-23_at_09.41.27.png" /></li>
+                <li>Access to demo website (wp-admin) is username: <strong>admin</strong>, password: <strong>lpdclient</strong></i></li>
+                <li><strong>Impotant!</strong> Don't forget to change email address in "Settings" and for "admin" user after complete importing.</i></li>
+            </ul>
+            
+            <h5>Video Tutorial</h5>
+            
+        	<p><iframe src="https://www.youtube.com/embed/cXG7Yaa2jUY" allowfullscreen="" frameborder="0" height="315" width="560"></iframe></p>
+        	<br>
+        	<p><iframe src="https://www.youtube.com/embed/9RO1kH8SZSg" allowfullscreen="" frameborder="0" height="315" width="560"></iframe></p>
+        	<br>
+        	<p><iframe src="https://www.youtube.com/embed/fQJmqb4Z5X8" allowfullscreen="" frameborder="0" height="315" width="560"></iframe></p>
+        	<br>
+        	<p><iframe src="https://www.youtube.com/embed/aQ04ttK0huI" allowfullscreen="" frameborder="0" height="315" width="560"></iframe></p>
+            
+        </section>
+        
+		<!-- // Theme Options -->
+        
+        <section id="theme_options">
+        
+        	<h3>Theme Options</h3><hr class="notop">
+        	
+        	<p>The theme has OptionTree theme options panel that is loaded with options. Because of the large amount of options theme provides, we can't go over all of them in full details in our documentation. Please go to "Appearance" => "Theme Options" to take some time and navigate through each section to see what theme options offers you.</p>
+        	
+			<ul>
+	        	<li><b>General Settings</b> - these options allow you to choose theme style, set global styles for theme buttons, activate WPML theme navigation, add custom CSS and JS.</li>
+				<li><b>Header Meta</b> -  these options affect your website’s top bar, set your header meta social icons style, background, custom pattern, content and layout.</li>
+				<li><b>Header Content</b> -  these options affect your website’s header, set your header color, upload the logo, set logo margin and location, set left and right menu margin, choose search form type, choose search form location and search form margin, upload decorative element and set size decorative element, set message box location, type, icon, icon background, content and margin, set header bottom content, icon and icon background.</li>
+				<li><b>Header Social Media</b> -  these options allow you choose header social icons location, set header social icons margin and select header social icons you want to display.</li>
+				<li><b>Menu Options</b> -  these options allow you enable/disable sticky menu, sticky menu shopping cart, sticky menu WPML navigation and separate menu element, choose navigation settings and navigation menu styles.</li>
+				<li><b>Typography</b> -  these options allow you choose body font size, set Typekit Kit fonts, choose font family for different types of elements and select font weight for bold fonts.</li>
+				<li><b>SEO Settings</b> -  these options affect your website’s SEO, enable/disable theme SEO functions, set page title settings and choose keywords and description for your project.</li>
+				<li><b>Theme Settings</b> -  these options allow you choose theme colors, theme background for "boxed" theme style and inner page title background color, upload favicon to your website.</li>
+				<li><b>Blog Settings</b> -  these options affect your website’s blog, upload blog page title background image, select the type of blog page title background, set blog page title padding and <a href="http://www.sharethis.com/">ShareThis</a> buttons for blog posts.</li>
+				<li><b>Portfolio Settings</b> -  these options affect your website’s portfolio posts, set <a href="http://www.sharethis.com/">ShareThis</a> buttons for portfolio posts.</li>
+				<li><b>Shop Settings</b> -  these options affect your website’s shop, select cart type and style, enable/disable rating on front page and shop title, set number of products and number of columns, choose "Sale" badge color, select shop thumbnail type and set custom shop thumbnail size, select product image type and set custom product image size, choose catalog mode type, choose custom styles for product item and set custom styles for shop page.</li>
+				<li><b>Footer Meta</b> -  these options affect your website’s footer meta, choose footer meta colors, set footer meta content and choose footer meta social icons.</li>
+				<li><b>Footer Options</b> -  these options allow you to upload credit cart icons, set copyright content and choose footer color.</li>
+				<li><b>Animation Onscroll</b> -  these options affect your website’s animation, set animation on scroll for sidebar, footer, footer top, footer bottom, footer meta, page title, shop thumbnails, product page, product image, product bottom, team post, portfolio post, portfolio thumbnails, blog page and blog post.</li>
+			</ul>
+        	
+        	<h4><u>Header Meta</u></h4>
+        	<p>Navigate to "Appearance" => "Theme Options" => "Header Meta", set custom content for "Left Header Meta" and "Right Header Meta".<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-04-23_at_13.15.54.png" /><br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-04-23_at_13.16.19.png" /></p>
+
+			<hr class="separator">
+    		
+    		<h4><u>Header Content</u></h4>
+    		<ol>
+        		<li><strong>Message Box</strong><br>
+        			Navigate to "Appearance" => "Theme Options" => "Header Content", select message box location, message box type, upload your icon and choose background color for an icon and enter any your content to "Message Box Content" text editor.
+        			<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-04-23_at_15.00.47.png" /><br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-04-23_at_15.01.16.png" />
+        		</li>
+        		<li><strong>Decorative Icon</strong><br>
+        			Navigate to "Appearance" => "Theme Options" => "Header Content", select icon size and upload your icon.
+        			<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-04-23_at_13.26.33.png" /><br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-04-23_at_13.26.55.png" />
+        		</li>
+        		<li><strong>Header Bottom Left/Right Containers</strong><br>
+        			Navigate to "Appearance" => "Theme Options" => "Header Content", enter any your content to "Left Container" and "Right Container" text fields, upload your icons and choose icon background colors.
+        			<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-04-23_at_13.27.55.png" /><br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-04-23_at_13.29.14.png" />
+        		</li>
+    		</ol>
+    		
+			<hr class="separator">
+			
+			<h4><u>Menu Options</u></h4>
+			
+    		<ol>
+        		<li><strong>Typekit Font</strong><br>
+        			There is a possibility to use a few Typekit fonts for free, the font such as "Museo Slab". All you have to do it's to register your account on <a href="https://typekit.com/fonts/">https://typekit.com/fonts/</a> create the kit and activate the "Typekit Kit ID" in "Theme Options" => "Typography".<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-04-23_at_12.55.00.png" /><br><iframe src="https://www.youtube.com/embed/C7jqZh4pKLo" allowfullscreen="" frameborder="0" height="315" width="560"></iframe>
+        		</li>
+    		</ol>
+    		
+    		<hr class="separator">
+    		
+    		<h4><u>Shop Settings</u></h4>
+    		<p>Use "Theme Options" => "Shop Settings" for CSS styling the shop page sidebar.
+    		<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-04-23_at_13.29.45.png" /><br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-04-23_at_13.30.03.png" /></p>
+    		
+        	<hr class="separator">
+        	
+        	<h4><u>Footer Meta</u></h4>
+        	<p>Navigate to "Appearance" => "Theme Options" => "Footer Meta", enter any your content to meta columns, if you want to display social media buttons in the first column, input your social media url(link) to icon custom fields.
+        	<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-04-23_at_13.31.21.png" /><br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-04-23_at_13.30.54.png" /><br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-04-23_at_13.31.42.png" /></p>
+        	
+			<hr class="separator">
+        	
+        	<h4><u>Animation Onscroll</u></h4>
+        	
+        	<ol>
+        		<li><p><strong>Sidebar</strong> - Animation of the widgets in "Sidebar" widget area.<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-04_at_15.28.20.png" />
+        		</li>
+        		
+        		<li><p><strong>Footer</strong> - Animation of the widgets in "Footer" widget area.<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-04_at_15.27.53.png" /></p>
+        		</li>
+        		
+        		<li><p><strong>Footer Top</strong> - Animation of the widgets in "Footer Top" widget area.<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-04_at_15.28.42.png" /></p>
+        		</li>
+        		
+        		<li><p><strong>Footer Bottom</strong> - Animation of the content in "Footer Bottom" container.<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-04_at_15.29.01.png" /></p>
+        		</li>
+        		
+        		<li><p><strong>Footer Meta</strong> - Animation of the content in "Footer Meta" container.<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-04_at_15.29.18.png" /></p>
+        		</li>
+        		
+        		<li><p><strong>Page Title</strong> - Animation of page title.<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-04_at_15.29.42.png" /></p>
+        		</li>
+        		
+        		<li><p><strong>Catalog Images</strong> - Animation of shop thumbnails.<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-04_at_15.30.17.png" /></p>
+        		</li>
+        		
+        		<li><p><strong>Product Page</strong> - Animation of product post content.<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-04_at_15.30.41.png" /></p>
+        		</li>
+        		
+        		<li><p><strong>Product Image</strong> - Animation of the image in product post.<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-04_at_15.31.03.png" /></p>
+        		</li>
+        		
+        		<li><p><strong>Product Bottom</strong> - Animation of bottom content in product post.<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-04_at_15.31.27.png" /></p>
+        		</li>
+        		
+        		<li><p><strong>Team Post</strong> - Animation of the content in team post.<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-04_at_15.31.45.png" /></p>
+        		</li>
+        		
+        		<li><p><strong>Portfolio Post</strong> - Animation of the content in portfolio post.<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-04_at_15.32.28.png" /></p>
+        		</li>
+        		
+        		<li><p><strong>Portfolio Image</strong> - Animation of the image in portfolio post.<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-04_at_15.32.54.png" /></p>
+        		</li>
+        		
+        		<li><p><strong>Blog Page</strong> - Animation of blog posts on main blog page.<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-04_at_15.33.33.png" /></p>
+        		</li>
+        		
+        		<li><p><strong>Post Page</strong> - Animation of the content in blog post.<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-04_at_15.33.55.png" /></p>
+        		</li>
+        		
+        	</ol>
+        
+        </section>
+        
+		<!-- // Page Builder -->
+        
+        <section id="page_builder">
+        	<h3>Page Builder</h3><hr class="notop">
+        	
+        	<p>The theme is powered by "Visual Composer" plugin created by wpbakery, <a href="https://wpbakery.atlassian.net/wiki/display/VC/Visual+Composer+Pagebuilder+for+WordPress">view plugin documentation</a> from wpbakery. With "Visual Composer" page builder plugin you can take full control over your WordPress site with Frontend and Backend editors. Build any layout you can imagine with drag and drop page builder plugin – no programming knowledge required.</p>
+        	
+        	
+			<h4><u>Available Theme Content Elements</u></h4>
+			<ol></li><li> Add Shortcode - use "Add Shortcode" element if one of your shortcode doesn't display correctly in visual composer "Text block" element.
+			</li><li> Banner - <a href="http://themes.lpd-themes.com/456sailing/banner/">http://themes.lpd-themes.com/456sailing/banner/</a>
+			</li><li> Blockquote - <a href="http://themes.lpd-themes.com/456sailing/blockquote/">http://themes.lpd-themes.com/456sailing/blockquote/</a>
+			</li><li> Bulleted List - <a href="http://themes.lpd-themes.com/456sailing/bulleted-list/">http://themes.lpd-themes.com/456sailing/bulleted-list/</a>
+			</li><li> Buttons - <a href="http://themes.lpd-themes.com/456sailing/theme-buttons/">http://themes.lpd-themes.com/456sailing/theme-buttons/</a>
+			</li><li> Featured Container
+			</li><li> Front Container
+			</li><li> Header
+			</li><li> Intro Container
+			</li><li> Icon Element
+			</li><li> Icon Header
+			</li><li> Icon Module
+			</li><li> Icon Working Hours
+			</li><li> Mega Header
+			</li><li> Module - <a href="http://themes.lpd-themes.com/456sailing/module/">http://themes.lpd-themes.com/456sailing/module/</a>
+			</li><li> Package - <a href="http://themes.lpd-themes.com/456sailing/package/">http://themes.lpd-themes.com/456sailing/package/</a>
+			</li><li> Post Widget - <a href="http://themes.lpd-themes.com/456sailing/post-widget/">http://themes.lpd-themes.com/456sailing/post-widget/</a>
+			</li><li> Sale Container - <a href="http://themes.lpd-themes.com/456sailing/sale-container/">http://themes.lpd-themes.com/456sailing/sale-container/</a>
+			</li><li> Team Widget - <a href="http://themes.lpd-themes.com/456sailing/team-widget/">http://themes.lpd-themes.com/456sailing/team-widget/</a>
+			</li><li> Testimonial - <a href="http://themes.lpd-themes.com/456sailing/testimonial/">http://themes.lpd-themes.com/456sailing/testimonial/</a>
+			</li><li> Working Hours - <a href="http://themes.lpd-themes.com/456sailing/working-hours/">http://themes.lpd-themes.com/456sailing/working-hours/</a>
+			</li><li> Products Carousel
+			</li><li> Product Categories Carousel
+			</li><li> Product Category Carousel
+			</li><li> Recent Products Carousel - <a href="http://themes.lpd-themes.com/456sailing/shop-elements/">http://themes.lpd-themes.com/456sailing/shop-elements/</a>
+			</li><li> Featured Products Carousel
+			</li></ol>
+			
+			<hr class="separator">
+
+			<h4><u>Background (decorative vectors)</u></h4>
+			<p><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-04_at_16.05.43.png" /></p>
+			<ol><li><p>Find background image in ../extra-content/ folder.<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-04_at_16.06.06.png" /></p>
+			</li><li><p>Go to your page "Backend Editor" and apply the correct settings for the row in "Row Settings" => "Background".</p>
+			<ul><li>Background Style - "Image/Parallax".
+			</li><li>Parallax Styles - "Simple Background Image".
+			</li><li>Background Image - Upload background image you want.
+			</li><li>Background Image Repeat - "No Repeat".
+			</li><li>Background Image Size - "Initial".
+			</li><li>Scroll Effect - "Move with the content".
+			</li><li>Background Image Position - "center top".
+			</li><li>Background Override - "Full Width".
+			</li></ul>
+			<p><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-04_at_16.06.38.png" /><p>
+			</li></ol>
+			
+			<hr class="separator">
+			
+			<h4><u>Background (angled image)</u></h4>
+			<p><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-04_at_16.10.13.png" /></p>
+			<ol><li><p>Find background image in ../extra-content/ folder.<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-04_at_16.10.39.png" /></p>
+			</li><li><p>Go to your page "Backend Editor" and apply the correct settings for the row in "Row Settings" => "Background".</p>
+			<ul><li>Background Style - "Image/Parallax".
+			</li><li>Parallax Styles - "Simple Background Image".
+			</li><li>Background Image - Upload background image you want.
+			</li><li>Background Image Repeat - "No Repeat".
+			</li><li>Background Image Size - "Initial".
+			</li><li>Scroll Effect - "Move with the content".
+			</li><li>Background Image Position - "center top".
+			</li><li>Background Override - "Full Width".
+			</li></ul>
+			<p><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-04_at_16.11.02.png" /><p>
+			</li></ol>
+			
+			<hr class="separator">
+			
+			<h4><u>Intro Container</u></h4>
+			<p><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-04_at_16.21.09.png" /></p>
+			<ol><li>Create 1 column main row.
+			</li><li>Inside main row create inner row with any number of columns you want.
+			</li><li>In "Main" row settings add extra class "<b>intro-containers</b>".<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-04_at_16.21.28.png" />
+			</li><li><p>Enter the settings for each your "Intro Container" element.<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-04_at_16.22.13.png" /></p>
+			</li><li><p>You can add any available Visual Composer elements into "Intro Container" element.<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-04_at_16.22.49.png" /></p>
+			</li></ol>
+			
+			<hr class="separator">
+			
+			<h4><u>Icon Element</u></h4>
+			<p><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-04_at_16.35.15.png" /></p>
+			<ol><li><b>(1.)</b> Create 1 column main row.
+			</li><li>Set <b>(A.)</b> "Background Style" - single color, <b>(B.)</b> "Background Color" and <b>(C.)</b> "Background Override" - full width in background row settings.
+			</li><li><b>(2.)</b> Add your VC "Icon Element" element.<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-04_at_16.35.40.png" />
+			</li></ol>
+			
+			<hr class="separator">
+			
+			<h4><u>Package</u></h4>
+			<p>The Package element over the slider without padding.</p>
+			<p><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-04_at_16.38.29.png" /></p>
+			<ol><li>Create 1 column main row.
+			</li><li><b>(2.)</b> Create 3 column inner row.
+			</li><li><b>(1.)</b> Add your VC "Package" elements.
+			</li><li><b>(3.)</b> For disabling inner row left/right padding, <b>(A.)</b> add extra class "<b>disable-row-padding</b>" to "Extra Class Name" in inner row settings.
+			</li><li><b>(3.)</b> If you want package elements have opacity effect, <b>(B.)</b> add extra class "<b>row-opacity</b>" to "Extra Class Name" in inner row settings.<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-04_at_16.38.55.png" />
+			</li><li><p><b>(3.)</b> For locating inner row over the slider <b>(C.)</b> add minus (-) top margin to "Design (Row) Options" in inner row settings.<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-04_at_16.39.19.png" /></p>
+			</li></ol>
+			
+			<hr>
+			
+			<h4><u>Icon Module, Icon Working Hours</u></h4>
+			<p>The row with "Icon Module" and "Icon Working Hours" elements over the slider without padding.</p>
+			<p><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-04_at_16.41.53.png" /></p>
+			<ol><li><b>(3.)</b> Create 1 column main row.
+			</li><li><b>(1.)(2.)</b> Create 5 column inner row.
+			</li><li><b>(1.)(2.)</b> Add your VC "Icon Module" and "Icon Working Hours" elements.
+			</li><li><b>(4.)</b> For disabling inner row left/right padding, <b>(A.)</b> add extra class "<b>disable-row-padding</b>" to "Extra Class Name" in inner row settings.
+			</li><li><b>(4.)</b> If you want "Icon Module" and "Icon Working Hours" elements have opacity effect, <b>(B.)</b> add extra class "<b>row-opacity</b>" to "Extra Class Name" in inner row settings.<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-04_at_16.42.23.png" />
+			</li><li><p><b>(4.)</b> For locating inner row over the slider <b>(C.)</b> add minus (-) top margin to "Design (Row) Options" in inner row settings.<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-04_at_16.42.47.png" /></p>
+			</li></ol>
+			
+			<hr class="separator">
+			
+			<h5>Front Container</h5>
+			<p>The row with "Front Container" elements over the slider without padding.</p>
+			<p><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-04_at_16.50.20.png" /></p>
+			<ol><li><b>(2.)</b> Create 1 column main row.
+			</li><li><b>(1.)</b> Create 4 column inner row.
+			</li><li><b>(2.)</b> Add your VC "Front Container" elements.
+			</li><li><b>(3.)</b> For disabling inner row left/right padding, <b>(A.)</b> add extra class "<b>disable-row-padding</b>" to "Extra Class Name" in inner row settings.
+			</li><li><b>(3.)</b> If you want front container elements have opacity effect, <b>(B.)</b> add extra class "<b>row-opacity</b>" to "Extra Class Name" in inner row settings.<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-04_at_16.50.44.png+" />
+			</li><li><p><b>(3.)</b> For locating inner row over the slider <b>(C.)</b> add minus (-) top margin to "Design (Row) Options" in inner row settings.<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-04_at_16.51.08.png" /></p>
+			</li></ol>
+			
+			<hr class="separator">
+			
+			<h4><u>Just Icons</u></h4>
+			<p>Full width row with "Just Icons" elements (categories) over the slider.</p>
+			<p><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-04_at_16.53.54.png" /></p>
+			<ol><li>(3.) Create 1 column main row.
+			</li><li>(1.) Create 4 column inner row.
+			</li><li>(2.) Add "Just Icon", "Empty Space" and "Text Block" elements.
+			</li><li>(4.) Add <b>(A.)</b> background color and top/bottom padding for each column.<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-04_at_16.54.23.png" />
+			</li><li><p>Method (1) - <b>(5.)</b> <b>(D.)</b> add extra class "<b>full-width-row</b>" to "Extra Class Name" in inner row settings for stretching the row.</p>
+			</li><li>Method (1) - <b>(5.)</b> If you want elements have opacity effect, <b>(C.)</b> add extra class "<b>row-opacity</b>" to "Extra Class Name" in inner row settings.<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-04_at_16.54.58.png" />
+			</li><li><p>Method (2) - <b>(5.)</b> Select <b>(B.)</b> "Stretch row and content" in in "Row Stretch" settings for stretching the row.</p>
+			</li><li>Method (2) - <b>(5.)</b> If you want elements have opacity effect, <b>(C.)</b> add extra class "<b>row-opacity</b>" to "Extra Class Name" in inner row settings.<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-04_at_16.55.30.png" />
+			</li><li><p><b>(5.)</b> For locating inner row over the slider <b>(E.)</b> add minus (-) top margin to "Design (Row) Options" in inner row settings.<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-04_at_16.55.59.png" /></p>
+			</li></ol>
+			
+			<hr class="separator">
+			
+			<h4><u>Featured Container</u></h4>
+			<p><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-04_at_17.00.21.png" /></p>
+			<ol><li>Create 1 column main row.
+			</li><li><b>(1.)</b> Add "Featured Container" element.
+			</li><li><b>(2.)</b> Add 3 column inner row.
+			</li><li><p><b>(3.)</b> Add "Icon Box" or any other VC elements into each column.<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-04_at_17.00.48.png" /></p>
+			</li></ol>
+			
+			<hr class="separator">
+
+			<h4><u>Extra Align Classes</u></h4>
+			<p>Extra align classes for column alignment.</p>
+			<ol><li> text-center
+			</li><li> text-left
+			</li><li> text-right
+			</li></ol>
+			<p><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-04_at_17.02.07.png" /><p>
+			
+			<hr class="separator">
+			
+			
+	        <h4><u>How to Update Plugin?</u></h4>
+	        
+	        <p>You will receive notification message, the message will let you know to update "Visual Composer" plugin. "Visual Composer" plugin updates are included with the new theme version, we update plugin only when we issue theme updates.</p>
+	        
+	        <cite style="border: 1px solid red;color: red;padding: 10px;display: inline-block;margin: 3px 0;font-weight: 700;">IMPORTANT NOTE - There is only one way to update "Visual Composer" plugin without getting a theme update is to purchase your item individually.</cite>
+	        
+	        <hr class="separator">
+	        
+	        <h4><u>Plugin License</u></h4>
+			
+			<cite style="border: 1px solid red;color: red;padding: 10px;display: inline-block;margin: 3px 0;font-weight: 700;">IMPORTANT NOTE - Since you purchased a theme it includes a license for "Visual Composer" you don't need to activate your license in "Visual Composer" => "Product License" section.</cite>
+			
+        </section>
+        
+        
+        <section id="header">
+        	<h3>Header</h3><hr class="notop">
+        	
+        	<h4><u>Header Variants</u></h4>
+        	<p>The theme offers 3 variants of header, header logo can be positioned on the left, top or center</p>
+        	<h5>Variant 1</h5>
+        	<p><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-05_at_10.45.09.png" /><p>
+        	<h5>Variant 2</h5>
+        	<p><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-05_at_10.45.33.png" /><p>
+        	<h5>Variant 3</h5>
+        	<p><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-05_at_10.45.54.png" /><p>
+        	<h5>How to Set Header?</h5>
+			<ol><li>From the WordPress main menu navigate to "Appearance" => "Theme Options" section.
+			</li><li>Navigate to "Header Content" tab and select one of "Logo Location" options.
+			</li><li><b>Left(type1)</b> = Variant 1, <b>Left(type2)</b> = Variant 2, <b>Center</b> = Variant 3 
+			</li></ol>
+			<p><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-05_at_10.59.21.png" /><p>
+			
+			<hr class="separator">
+			
+			<h4><u>The Menu</u></h4>
+			
+			<h5>Setup a New Menu</h5>
+			
+			<ol>
+				<li>From the WordPress main menu navigate to "Appearance" => "Menus" section.</li>
+				<li>Click the "create a new menu" link. Give your menu, then click "Create Menu".</li>
+				<li>To add a menu item, select one of your created pages or posts on the left hand side and click the Add to Menu button.</li>
+				<li>After setting up your menu, assign the menu to "Primary Menu" location at the bottom of the page.</li>
+				<li>Once your menu is done, click the "Save Menu" button.</li>
+			</ol>
+			
+			<hr class="separator">
+			
+			<h5>Standard Menu</h5>
+
+			<p>Video tutorial shows how to create "Standard" menu.</p>
+        	<p><iframe src="https://www.youtube.com/embed/qIjTTOYrSCM" allowfullscreen="" frameborder="0" height="315" width="560"></iframe></p>
+        	
+        	<hr class="separator">
+        	
+        	<h5>2 Column Menu</h5>
+        	
+        	<p>Video tutorial shows how to create 2 column mega menu.</p>
+        	<ul><u>Available Classes</u>
+	        	<li><b>col-1-2</b> - the class for 2 column menu</li>
+        	</ul>
+        	<p><iframe src="https://www.youtube.com/embed/6aeOH9JmzFA" allowfullscreen="" frameborder="0" height="315" width="560"></iframe></p>
+        	
+        	<hr class="separator">
+        	
+        	<h5>3 Column Menu</h5>
+        	<p>Video tutorial shows how to create 3 column mega menu.</p>
+        	<ul><u>Available Classes</u>
+	        	<li><b>col-1-3</b> - the class for 3 column menu</li>
+        	</ul>
+        	<p><iframe src="https://www.youtube.com/embed/0081uV564Fw" allowfullscreen="" frameborder="0" height="315" width="560"></iframe></p>
+        	
+        	<hr class="separator">
+        	
+        	<h5>4 Column Menu</h5>
+        	<p>Video tutorial shows how to create 4 column mega menu.</p>
+        	<ul><u>Available Classes</u>
+	        	<li><b>col-1-4</b> - the class for 4 column menu</li>
+        	</ul>
+        	<p><iframe src="https://www.youtube.com/embed/s4sgk6zbZRo" allowfullscreen="" frameborder="0" height="315" width="560"></iframe></p>
+        	
+        	<hr class="separator">
+        	
+        	<h5>Full Width 4 Column Menu</h5>
+        	<p>Video tutorial shows how to create 4 column full width menu.</p>
+        	<p><iframe src="https://www.youtube.com/embed/GchMOJjDu6I" allowfullscreen="" frameborder="0" height="315" width="560"></iframe></p>
+        	
+        	<hr class="separator">
+        	
+        	<h5>Description</h5>
+        	<p>Video tutorial shows how to use description in menus.</p>
+        	<p><iframe src="https://www.youtube.com/embed/DTqvWhceBpw" allowfullscreen="" frameborder="0" height="315" width="560"></iframe></p>
+        	
+        	<hr class="separator">
+        	
+        	<h5>Hide Title Menu</h5>
+        	<p>Video tutorial shows how to hide title.</p>
+        	<ul><u>Available Classes</u>
+	        	<li><b>hide-title</b></li>
+        	</ul>
+        	<p><iframe src="https://www.youtube.com/embed/Cps2sbxdNwA" allowfullscreen="" frameborder="0" height="315" width="560"></iframe></p>
+        	
+        	<hr class="separator">
+        	
+        	<h5>Background Image In Mega Menu</h5>
+        	
+        	<p>Video tutorial shows how to add background image in mega menu.</p>
+        	<ul><u>Available Classes</u>
+        		<li><b>menu-right-background</b> - right padding 100px</li>
+        		<li><b>menu-bottom-background</b> - bottom padding 100px</li>
+	        	<li><b>menu-bottom-right-background</b> - bottom padding 100px, right padding 100px</li>
+	        	<li><b>menu-bottom-background-200</b> - bottom padding 200px</li>
+	        	<li><b>menu-bottom-right-background-200</b> - bottom padding 100px, right padding 200px</li>
+        	</ul>
+        	<p><iframe width="560" height="315" src="https://www.youtube.com/embed/GBICIWHpRRY" frameborder="0" allowfullscreen></iframe></p>
+
+        </section>
+        
+		<!-- // Widget Area -->
+        
+        <section id="widget-area">
+        	<h3>Widget Area</h3><hr class="notop">
+        	
+        	<h4><u>How to Set Widget</u></h4>
+        	<ol>
+	        	<li>Navigate to "Appearance" => "Widgets" to access the list of widgets and widget areas.</li>
+	        	<li>The left hand side shows all the widgets and the right hand side shows all widget areas you can add widgets.</li>
+	        	<li>Drag and drop the widget you want into the widget area you want.</li>
+        	</ol>
+        	
+        	
+        	<h4><u>Widget Areas</u></h4>
+        	<ol>
+	        	<li><h5>Main Sidebar</h5>
+	        		Sidebar widget area for "Default Template" template.
+	        		<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-05_at_12.15.12.png" />
+	        	</li>
+	        	<li><h5>Footer Top</h5>
+	        		Widget area for footer top, widgets display in 4 columns.
+	        		<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-05_at_12.14.49.png" />
+	        	</li>
+	        	<li><h5>Footer</h5>
+	        		Widget area for footer, widgets display in 4 columns.
+	        		<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-05_at_12.14.24.png" />
+	        	</li>
+	        	<li><h5>Shop Sidebar</h5>
+	        		Sidebar widget area for WooCommerce "Shop" page.
+	        		<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-05_at_12.13.48.png" />
+	        	</li>
+	        	<li><h5>Product Post Sidebar</h5>
+	        		Sidebar widget area for product posts.</p>
+	        		<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-05_at_12.13.17.png" />
+	        	</li>
+	        	<li><h5>Footer 3 Top Column</h5>
+	        		Widget area for footer top, widgets display in 3 columns.
+	        		<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-05_at_12.12.53.png" />
+	        	</li>
+	        	<li><h5>Footer 3 Column</h5>
+	        		Widget area for footer, widgets display in 3 columns, if you are using this widget area "Footer" widgets will not work on front page.
+	        		<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-05_at_12.12.20.png" />
+	        	</li>
+	        	<li><h5>Visual Composer Sidebar</h5>
+	        		Widget area for visual composer "Widgetised Sidebar" element.
+	        		<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-05_at_12.12.03.png" />
+	        	</li>
+        	</ol>
+        </section>
+        
+		<!-- // Menu Locations -->
+        
+        <section id="menu-locations">
+        	<h3>Menu Locations</h3><hr class="notop">
+        	
+        	<p>The theme supports custom WordPress menus. There are 6 areas where you can assign a menu: "Primary Menu", "Left Header Meta Menu", "Right Header Meta Menu", "Left Header Menu", "Right Header Menu" and "Footer Menu". You can assign any custom menu for each of these menu locations. Once a menu is assigned to the location, it will show up on the front page.</p>
+        	
+        	<cite style="border: 1px solid red;color: red;padding: 10px;display: inline-block;margin: 3px 0;font-weight: 700;">IMPORTANT NOTICE - "Left/Right Header Meta Menu" will not work if "Left Header Meta" or "Right Header Meta" custom field has the content or "Meta Contacts Location" is active in "Theme Options" => "Header Meta".</cite>
+        	
+        	<p><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-05_at_12.32.18.png" /><p>
+        	<p><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-05_at_12.32.42.png" /><p>
+        	<p><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-05_at_12.32.56.png" /><p>
+        	<p><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-05_at_12.33.16.png" /><p>
+
+        </section>
+        
+		<!-- // Pages -->
+        
+        <section id="pages">
+        	<h3>Pages</h3><hr class="notop">
+        	
+        	<h4><u>New Page</u></h4>
+        	
+        	<ol>
+	        	<li>From the WordPress main menu navigate to "Pages" => "Add New" section.</li>
+	        	<li>Input a name for your page.</li>
+	        	<li>Find the "Page Attributes" box on right side.</li>
+	        	<li>Set your page template from the Template dropdown.
+		        	<ul>
+			        	<li><b>Default Template</b> - full width page with title and sidebar.</li>
+			        	<li><b>Full Width Template</b> - full width page without title.</li>
+			        	<li><b>Full Width Template (title)</b> - full width page with title.</li>
+		        	</ul>
+	        	</li>
+	        	<li>Use "Page Header" options if you want to have page header background.
+	        		<br>
+	        		<img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-05_at_12.58.51.png" />
+	        	</li>
+	        	<li>The content goes in the editing field, use "Visual Composer" page builder or classical text editor.</li>
+        	</ol>
+        	
+        	<hr class="separator">
+        	
+        	<h4><u>Home Page</u></h4>
+        	
+        	<p>Creating home page is the same as any other regular pages.</p>
+        	
+        	<h5>How to Set Home Page</h5>
+        	
+        	<ol>
+	        	<li>Once you have created your home page, navigate to "Settings" => "Reading".</li>
+				<li>Select "a static page" option.</li>
+				<li>Choose choose the page you just created as your home page from the "Front Page" dropdown list.
+					<br>
+	        		<img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-05_at_13.18.44.png" />
+				</li>
+        	</ol>
+        	
+        	<hr class="separator">
+        	
+        	<h4><u>Blog Page</u></h4>
+        	
+        	<p>Creating blog page is the same as any other regular pages.</p>
+        	
+        	<h5>How to Set Blog Page</h5>
+        	
+        	<ol>
+	        	<li>Once you have created your blog page, navigate to "Settings" => "Reading".</li>
+				<li>Select "a static page" option.</li>
+				<li>Choose choose the page you just created as your blog page from the "Posts Page" dropdown list.
+					<br>
+	        		<img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-05_at_13.18.55.png" />
+				</li>
+        	</ol>
+        	
+        	<cite style="border: 1px solid red;color: red;padding: 10px;display: inline-block;margin: 3px 0;font-weight: 700;">IMPORTANT NOTICE - Page header and sidebar location settings for blog page in "Appearance" => "Theme Options" => "Blog Settings".</cite>
+        	
+        	<hr class="separator">
+        	
+        	<h4><u>Portfolio Page</u></h4>
+        	
+        	<h5>How to Set Portfolio Post</h5>
+        	
+        	<ol>
+	        	<li>From the WordPress main menu navigate to "Portfolio" => "Add New" section.</li>
+	        	<li>Input a name for your post.</li>
+	        	<li>Find the "Featured Image" box on right side.</li>
+	        	<li>Set your featured image for this post.</li>
+	        	<li>Use "Portfolio Header" options if you want to have page header background.
+	        		<br>
+	        		<img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-05_at_14.45.50.png" />
+	        	</li>
+	        	<li>Use "Portfolio Options" if you want to show up specific metadata.
+	        		<br>
+	        		<img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-05_at_14.47.57.png" />
+	        	</li>
+	        	<li>Add images from "Media Library" for gallery by using "Post Gallery" post option.
+	        		<br>
+	        		<img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-05_at_14.48.15.png" />
+	        	</li>
+	        	<li>The content of the post goes in the editing field.</li>
+        	</ol>
+        	
+        	<h5>How to Set Portfolio Page</h5>
+        	
+        	<ol>
+	        	<li>From the WordPress main menu navigate to "Pages" => "Add New" section.</li>
+	        	<li>Input a name for your portfolio page.</li>
+	        	<li>Find the "Page Attributes" box on right side.</li>
+	        	<li>Set your page template from the "Template" dropdown.</li>
+	        	<li>Use "Page Header" options if you want to have page header background.
+	        		<br>
+	        		<img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-05_at_12.58.51.png" />
+	        	</li>
+	        	<li>There are 2 possibilities to show up portfolio posts: use "Portfolio Widget" or "Essential Grid" visual composer elements. <a href="http://support.lpd-themes.com/plugin-docs/essential-grid/">Create new "Essential Grid" grids</a>.
+	        		<br>
+	        		<img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-05_at_15.00.23.png" />
+	        	</li>
+        	</ol>
+        	
+        	<hr class="separator">
+        	
+        	<h4><u>Team Members Page</u></h4>
+        	
+        	<h5>How to Set Team Post</h5>
+        	
+        	<ol>
+	        	<li>From the WordPress main menu navigate to "Team" => "Add New" section.</li>
+	        	<li>Input a name for your post.</li>
+	        	<li>Find the "Featured Image" box on right side.</li>
+	        	<li>Set your featured image for this post.</li>
+	        	<li>Use "Page Header" options if you want to have page header background.
+	        		<br>
+	        		<img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-05_at_15.17.57.png" />
+	        	</li>
+	        	<li>Use "Team Options" if you want to show up specific metadata (position, social media and progress bars).
+	        		<br>
+	        		<img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-05_at_15.20.15.png" />
+	        	</li>
+	        	<li>The content of the post goes in the editing field.</li>
+        	</ol>
+        	
+        	<h5>How to Set Team Page</h5>
+        	
+        	<ol>
+	        	<li>From the WordPress main menu navigate to "Pages" => "Add New" section.</li>
+	        	<li>Input a name for your team page.</li>
+	        	<li>Find the "Page Attributes" box on right side.</li>
+	        	<li>Set your page template from the "Template" dropdown.</li>
+	        	<li>Use "Page Header" options if you want to have page header background.
+	        		<br>
+	        		<img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-05_at_12.58.51.png" />
+	        	</li>
+	        	<li>Show up team posts by using "Team Widget" visual composer elements.
+	        		<br>
+	        		<img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-05_at_15.23.19.png" />
+	        	</li>
+        	</ol>
+
+        </section>
+        
+		<!-- // Premium Plugins -->
+        
+        <section id="premium_plugins">
+	        
+	        <h3>Premium Plugins</h3><hr class="notop">
+	        
+	        <h4><u>Revolution Slider</u></h4>
+	        
+	        <p>The theme includes the "Revolution Slider" plugin created by ThemePunch, <a href="http://revolution.themepunch.com/documentation/">view plugin documentation</a> from ThemePunch.</p>
+	        
+	        <h5>How To Import Sliders</h5>
+	        <ol>
+		        <li>Find import files (bikini, fishing, jetski, seafood, shipping-cargo, shop-slider, sport-fishing-tours, sport-fishing, swim-banner, swim-big-banner-boxed, swim-shop, travel-tours, travel, water-sport, yacht-rental, yacht-selection) in ../import-files/revolution-slider/ folder.<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-04-30_at_17.56.52.png" /></li>
+		        <li>Navigate to plugin's main admin page, click the "Import Slider" option.<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-04-30_at_18.09.35.png" /></li>
+		        <li>Choose one of zipped file in "Importer" and click to import it.</li>
+	        </ol>
+	        <p><iframe src="https://www.youtube.com/embed/rQBfnXmlxGI" allowfullscreen="" frameborder="0" height="315" width="560"></iframe></p>
+	        <hr class="separator">
+	
+	        <h4><u>Essential Grid</u></h4>
+	        <p>The theme includes the "Essential Grid" plugin created by ThemePunch, <a href="http://support.lpd-themes.com/plugin-docs/essential-grid/">view plugin documentation</a> from ThemePunch.</p>
+	        
+	        <h5>How To Import Grids</h5>
+	        
+	        <ol>
+		        <li>Find import JSON file in ../import-files/essential_grid/ folder.<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-04_at_10.45.06.png" /></li>
+		        <li>From the WordPress main menu navigate to "Ess. Grid" => "Import/Export" section.<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-04_at_10.51.02.png" /></li>
+				<li>Choose JSON file in "Importer" and click to "Read File".<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-04_at_10.50.03.png" /></li>
+		        <li>Select all data of this JSON file and click to "Import Select Data".<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-04_at_10.59.38.png" /></li>
+	        </ol>
+	        
+	        <hr class="separator">
+	
+	        <h4><u>WooThumbs</u></h4>
+	        <p>Install and activate <a href="https://wordpress.org/plugins/redux-framework/">Redux Framework</a> plugin after "WooThumbs - Multiple Images per Variation" plugin activation.
+			<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-04_at_11.08.07.png" /></p>
+			
+	        <h5>WooThumbs Plugin Settings</h5>
+	        <ol>
+				<li>Navigate to "Woocommerce" => "Woothumbs" for plugin settings.</li>
+		        <li>Make sure "Default Slider Width" is 100% in "Woothumbs" => "Slider Dimensions" settings.</li>
+		        <li>The second and third slider positions are not available with this theme.<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-04_at_11.08.51.png" /></li>
+		        <li>The third and fourth thumbnail layouts in "Navigation Settings" are not available with this theme.<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-05-04_at_11.09.22.png" /></li>
+	        </ol>
+
+	        <hr class="separator">
+	        
+	        <h4><u>Ultimate Addons for Visual Composer</u></h4>
+	        
+	        <p>The theme includes the "Ultimate Addons for Visual Composer" plugin created by BrainstormForce, <a href="http://support.lpd-themes.com/plugin-docs/ultimate-addons/">view plugin documentation</a> from BrainstormForce.</p>
+	
+			<p>Since you purchased a theme it includes a license for "Ultimate Addons for Visual Composer" you don't need to activate your license in "Brainstorm" => "Dashboard" section.</p>
+			
+			<hr class="separator">
+			
+	        <h4><u>Visual Composer Widgets</u></h4>
+	        
+	        <p>The theme includes the "Visual Composer in Sidebars Addon" plugin created by <a href="http://support.lpd-themes.com/plugin-docs/essential-grid/">wpwishweb</a>.</p>
+	        
+	        <h5>How To Use</h5>
+			<ol>
+				<li>After plugin activation you will see a new menu item in your WordPress back-end called "VC Elements".</li>
+				<li>Go to VC Elements =&gt; Add New to create a new item.</li>
+				<li>Give your VC Element a title. This will appear as a widget in Appearance =&gt; Widgets.</li>
+				<li>Click "Add element" as you would normally on a page while using Visual Composer.</li>
+				<li>Select any of the elements, and configure its options. If you require any help with this side of things - check out Visual Composer's documentation.</li>
+				<li>Click publish.</li>
+				<li>You can then navigate to Appearance =&gt; Widgets where you will see a new widget called "Visual Composer Element"</li>
+				<li>Add this widget to your chosen sidebar / widget area.</li>
+				<li>You can then use the drop down to select which of your VC elements you wish to display.</li>
+				<li>Repeat this process if you need more than one element in any sidebar / widget area.</li>
+			</ol>
+			
+			<hr class="separator">
+			
+	        <h4><u>Easy Tables (vc)</u></h4>
+	        
+	        <p>The theme includes the "Easy Tables (vc)" plugin created by wpbakery, <a href="https://wpbakery.atlassian.net/wiki/display/VC/Easy+Tables">view plugin documentation</a> from wpbakery.</p>
+	        
+	        <hr class="separator">
+	        
+	        <h4><u>How to Update Plugin?</u></h4>
+	        
+	        <p>You will receive notification message, the message will let you know to update the required or recommended plugins. Premium plugin updates are included with the new theme version, we update plugins only when we issue theme updates.</p>
+	        
+	        <cite style="border: 1px solid red;color: red;padding: 10px;display: inline-block;margin: 3px 0;font-weight: 700;">IMPORTANT NOTE - There is only one way to update "Visual Composer" and "Ultimate Addons for Visual Composer" plugins without getting a theme update is to purchase your item individually.</cite>
+
+        </section>
+        
+		<!-- // Shortcodes -->
+        
+        <section id="shortcodes">
+        <h3>Shortcodes</h3><hr class="notop">
+			<ul>
+    			<li>Abbreviation - <code>[abbr]Your content here...[/abbr]</code></li>
+        		<li>Address - <a href="http://themes.lpd-themes.com/456sailing/shortcode/">http://themes.lpd-themes.com/456sailing/shortcode/</a></li>
+				<li>Break Tag - <code>[br][/br]</code></li>
+				<li>Computer Code - <code>[code]Your content here...[/code]</code></li>
+				<li>Dropcaps
+					<ul>
+						<li>Dropcap - <code>[dropcap]a[/dropcap]</code> <a href="http://themes.lpd-themes.com/456sailing/shortcode/">http://themes.lpd-themes.com/456sailing/shortcode/</a></li>
+						<li>Dropcap 1 - <code>[dropcap1]a[/dropcap1]</code> <a href="http://themes.lpd-themes.com/456sailing/shortcode/">http://themes.lpd-themes.com/456sailing/shortcode/</a></li>
+						<li>Dropcap 2 - <code>[dropcap2]a[/dropcap2]</code> <a href="http://themes.lpd-themes.com/456sailing/shortcode/">http://themes.lpd-themes.com/456sailing/shortcode/</a></li>
+						<li>Dropcap Rounded - <code>[dropcap type="rounded"]a[/dropcap]</code> <a href="http://themes.lpd-themes.com/456sailing/shortcode/">http://themes.lpd-themes.com/456sailing/shortcode/</a></li>
+						<li>Dropcap 1 Rounded - <code>[dropcap1 type="rounded"]a[/dropcap1]</code> <a href="http://themes.lpd-themes.com/456sailing/shortcode/">http://themes.lpd-themes.com/456sailing/shortcode/</a></li>
+						<li>Dropcap 2 Rounded - <code>[dropcap2 type="rounded"]a[/dropcap2]</code> <a href="http://themes.lpd-themes.com/456sailing/shortcode/">http://themes.lpd-themes.com/456sailing/shortcode/</a></li>
+					</ul>
+				</li>
+				<li>Float Clear - <code>[clear][/clear]</code></li>
+				<li>Headings
+					<ul>
+						<li>Heading 1 - <code>[h1]Heading[/h1]</code></li>
+						<li>Heading 2 - <code>[h2]Heading[/h2]</code></li>
+						<li>Heading 3 - <code>[h3]Heading[/h3]</code></li>
+						<li>Heading 4 - <code>[h4]Heading[/h4]</code></li>
+						<li>Heading 5 - <code>[h5]Heading[/h5]</code></li>
+						<li>Heading 6 - <code>[h6]Heading[/h6]</code></li>
+					</ul>
+				</li>
+				<li>Horizontal Line - <code>[hr][/hr]</code></li>
+        		<li>Hyperlink - <code>[hyperlink target='_self' href='#']Your content here...[/hyperlink]</code></li>
+        		<li>Labels - <a href="http://themes.lpd-themes.com/456sailing/shortcode/">http://themes.lpd-themes.com/456sailing/shortcode/</a></li>
+				<li>Paragraph - <code>[p]Your content here...[/p]</code></li>
+				<li>Preformatted Text - <code>[pre]Your content here...[/pre]</code></li>
+				<li>Bold Text - <code>[strong]Your content here...[/strong]</code></li>
+				<li>Tooltip - <a href="http://themes.lpd-themes.com/456sailing/shortcode/">http://themes.lpd-themes.com/456sailing/shortcode/</a></li>
+    		</ul>
+        </section>
+        
+		<!-- // Sources & Credits -->
+        
+        <section id="sources_and_credits">
+            <h3>Sources & Credits</h3><hr class="notop">
+            <ol>
+                <li><strong>Bootstrap Framework</strong> - a sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development, <a href="http://twitter.github.com/bootstrap/index.html">more information</a>.</li>
+                <li><strong>Owl Carousel 2</strong> - touch enabled jQuery plugin that lets you create a beautiful responsive carousel slider, <a href="http://www.owlcarousel.owlgraphic.com/">more information</a>.</li>
+                <li><strong>3d Mega Menu for Bootstrap *</strong> - responsive 3D Mega Drop Down Menu is a flexible and high customizable to build your custom menus, <a href="http://www.owlcarousel.owlgraphic.com/">more information</a>.</li>
+                <li><strong>Cre-animate - Onscroll jQuery Animations *</strong> - quickly and easily add onscroll animations to any elements on your website, <a href="http://codecanyon.net/item/creanimate-onscroll-jquery-animations/6696530">more information</a>.</li>
+                <li><strong>scotchPanels *</strong> - a jQuery Plugin for easily building CSS3 off canvas menus, navigations, and panels, <a href="https://panels.scotch.io/">more information</a>.</li>
+            </ol>
+            <ul>
+                <li><strong>Picons *</strong> - a brand new, super slick, elegant & modern iconset, <a href="https://picons.me/">more information</a>.</li>
+                <li><strong>Blue Sail Logo *1</strong> - logo, <a href="http://graphicriver.net/item/blue-sail-logo/5448919">more information</a>.</li>
+                <li><strong>Allergen Free Icons *1</strong> - set of allergen free icons, <a href="http://graphicriver.net/item/allergen-free-icons/9598200">more information</a>.</li>
+                <li><strong>Swimsuit Mock-up *1</strong> - mock-up, <a href="http://graphicriver.net/item/swimsuit-mockup/7567825">more information</a>.</li>
+				<li><strong>Bikini Mock-up *1</strong> - mock-up, <a href="http://graphicriver.net/item/bikini-mockup/6436471">more information</a>.</li>
+                <li><strong>Summer Icons Set Modern Flat Icons *1</strong> - set of modern flat icons, <a href="http://graphicriver.net/item/summer-icons-set-modern-flat-icons/7019947">more information</a>.</li>
+                <li><strong>Fishing Icons  *1</strong> - set of fishing icons, <a href="http://graphicriver.net/item/fishing-icons/10042823">more information</a>.</li>
+                <li><strong>Placeholder Signatures  *1</strong> - set of signature elements, <a href="http://graphicriver.net/item/-placeholder-signatures-/2953003">more information</a>.</li>
+                <li><strong>Cute Girl Drinking From Fresh Coconut on Hammock *1</strong> - video, <a href="http://videohive.net/item/cute-girl-drinking-from-fresh-coconut-on-hammock/4475681">more information</a>.</li>
+                <li><strong>Clouds Over a Village on the Italian Alps *1</strong> - video, <a href="http://videohive.net/item/clouds-over-a-village-on-the-italian-alps/5577959">more information</a>.</li>
+                <li><strong>Fisherman On Morning Fishing *1</strong> - video, <a href="http://videohive.net/item/fisherman-on-morning-fishing/2139022">more information</a>.</li>
+                <li><strong>Water Activities *1</strong> - video, <a href="http://videohive.net/item/water-activities/5232086">more information</a>.</li>
+                <li><strong>Girls On The Beach *1</strong> - video, <a href="http://videohive.net/item/girls-on-the-beach/8893365">more information</a>.</li>
+                <li><strong>Baked Salmon On A Plate *1</strong> - video, <a href="http://videohive.net/item/baked-salmon-on-a-plate/3985287">more information</a>.</li>
+                <li><strong>Working With Forklift *1</strong> - video, <a href="http://videohive.net/item/working-with-forklift/5476619">more information</a>.</li>
+                <li><strong>Coral Reef Red Fish *1</strong> - video, <a href="http://videohive.net/item/coral-reef-red-fish/1916330">more information</a>.</li>
+                <li><strong>Silhouettes Of Two Surfers at Sunset *1</strong> - video, <a href="http://videohive.net/item/silhouettes-of-two-surfers-at-sunset/5994616">more information</a>.</li>
+                <li><strong>Boats In Harbor *1</strong> - video, <a href="http://videohive.net/item/boats-in-harbor/2592423">more information</a>.</li>
+                <li><strong>Beautiful Boat Tied In Port *1</strong> - video, <a href="http://videohive.net/item/beautiful-boat-tied-in-port/8029011">more information</a>.</li>
+                <li><strong>Yacht Marina *1</strong> - video, <a href="http://videohive.net/item/yacht-marina/2658703">more information</a>.</li>
+                <li><strong>Yacht in Oludeniz *1</strong> - video, <a href="http://videohive.net/item/yacht-in-oludeniz/9080793">more information</a>.</li>
+                <li><strong>Shutterstock *1</strong> licensed stock items, item ID: (80209156, 90338833, 138785507, 141226768, 141987736, 182542025, 185908361, 51322873, 51322879, 103847285, 106558697, 133339214, 135894995, 141708919, 207336370, 124671829, 104654450, 53108779, 178256630, 176916050, 151570268, 144342526, 141494932, 128010731, 127605290, 113242837, 105946100, 59677870, 11081200, 141814396, 126995471, 124644931, 83834581, 159826775, 159281780, 156231818, 156231812, 156202793, 147643964, 143818195, 142025752, 141591382, 131586746, 130177562, 127845293, 125557766, 123813202, 116091655, 107597459, 107232053, 93337504, 125334875, 124599211, 122485123, 95132617, 197734004, 189838091, 182271815, 171079541, 159119840, 118828825, 114633376, 102392008, 63136258, 41274886, 172537061, 145340113, 140335033, 104909027, 157472336, 154141448, 115848196, 195499937, 192349016, 175927895, 144468043, 143262658, 142167508, 137106950, 130461029, 128346086, 90334042, 74622847, 164729963, 151831880, 129801509, 89902954, 51322894, 50284018, 158192810, 151937831, 143420758, 39811825, 899029540, 191626967, 157536494, 109149716, 105064190, 104010986, 103940474, 85363498, 79802119, 54257464, 197128901, 181050230, 105610775, 84993784, 124833139, 210029593, 189974108, 158856659, 136004678, 176384315, 169712891, 136004678, 194751086, 160639703, 125553212, 90907106, 56271814, 48599572, 106750037, 130708778, 11564167, 11564170, 11858614, 53353003, 71643970, 156717914, 109247321, 153315155, 97741886, 134352683, 172403801, 6956251, 6956263, 46055173, 50960617, 141158845, 142420780, 60878707, 102440596, 117808195, 150199097, 177674912, 186345932, 199522688, 77457910, 72752632, 139565204, 78616720, 106938428, 138703187, 169077227, 93800383, 106938716, 136754111, 186865331, 143170717, 198441680, 190740311 and 137450156), <a href="http://www.shutterstock.com">more information</a>.</li>
+            </ul>
+            <p><small>* - file's license is included in this item.</small><br />
+            <small> *1 - file's license is not included in this item.</small><br /></p>
+        </section>
+        
+		<!-- // Extras -->
+        
+        <section id="extras">
+            <h3>Extras</h3><hr class="notop">
+            
+            <!-- //// Test Drive -->
+            
+            <h4><u>Test Drive</u></h4>
+            <p><a href="http://demo.lpd-themes.com/456sailing/demo/">Test Drive</a> site has been built to allow you to test almost every feature of our theme and all of its extensions.To use this demo we give you the ability to create your very own sandbox to play in. This allows you to create new pages, posts, sliders or edit existing and to see how 456Sailing and all of it’s extensions work. You can do everything you would do when administrating your own site with just a few restrictions:</p>
+            <ol>
+	            <li><b>WP-Admin dashboard.</b> When you login as demo-admin, you’ll notice that you only have access to a handful of menu items.</li>
+	            <li><b>Modify user accounts.</b> I think you can see why it would be dangerous to let anonymous internet users modify the accounts and restrictions we have placed on this demo site.</li>
+	            <li><b>User registration.</b> Just like with the above, we need to control who can access the site, so we’ve disabled the ability of the Front-End Editor extension to create new users.</li>
+	            <li><a href="http://demo.lpd-themes.com/456sailing/demo/">Try The Demo!</a></li>
+            </ol>
+            <p><a href="http://demo.lpd-themes.com/456sailing/demo/"><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-04-30_at_10.49.14.png" /></a></p>
+            <hr class="separator">
+            
+            <!-- //// Image Size  -->
+            
+            <h4><u>Image Size</u></h4>
+            <p>If you would like to change image size of theme images to your needs or disable one of image size, please follow the steps below.</p>
+            <ol>
+	            <li>Open the ../functions/reset.php file.</li>
+	            <li>Inside ../functions/reset.php file find the "add_image_size" calls.</li>
+	            <li>If you want to disable one of image size add a double backslash "//" before "add_image_size" call.<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-04-30_at_11.53.47.png" /></li>
+	            <li>If you want to change image size, change the parameters for weight and height.<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-04-30_at_11.59.46.png" /></li>
+	            <li>Regenerate all your theme images by using <a href="https://wordpress.org/plugins/regenerate-thumbnails/">"Regenerate Thumbnails"</a> plugin and after doing this, the sizes you don’t want included will be removed and new image sizes will be regenerated.</li>
+            </ol>
+            <hr class="separator">
+            
+            <!-- //// Psd Files & Free Icons -->
+            
+            <h4><u>Psd Files & Free Icons</u></h4>
+            <p>Find the layered psd elements, free icons in ../<b>extra-content</b>/ folder. Theme package doesn't include psd template of this theme.</p></p>
+            
+            <hr class="separator">
+            
+            <!-- //// Translation -->
+            <h4><u>Translation</u></h4>
+            <ol>
+	            <li>Login to your FTP account and open the wp-config.php file.</li>
+	            <li>In the wp-config.php file, find the "WPLANG" constant which looks like:
+	            <pre>define('WPLANG', '');</pre>
+	            </li>
+	            <li>If you don't have this constant in wp-config.php file, add it anywhere in a new line.</li>
+	            <li>For example set WPLANG to 'de_DE' to enable German language, WPLANG constant have to look like the following code:
+		        <pre>define('WPLANG', 'de_DE');</pre>
+				<cite style="border: 1px solid red;color: red;padding: 10px;display: inline-block;margin: 3px 0;font-weight: 700;">IMPORTANT NOTE - Complete lists of codes can be found at <a href="http://www.gnu.org/software/gettext/manual/html_chapter/gettext_16.html#Country-Codes">(country codes)</a> and <a href="http://www.gnu.org/software/gettext/manual/html_chapter/gettext_16.html#Language-Codes">(language codes)</a>.</cite>
+	            </li>
+	            <li>After the wp-config.php is edited, login to WP-admin and navigate to the "General Settings" page.</li>
+				<li>In the "General Settings", make sure the "Site Language" is set to your language.
+					<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-04-27_at_10.28.11.png" />
+				</li>
+            </ol>
+            <hr class="separator">
+            
+            <!-- //// Translation Files -->
+            
+            <h4><u>Translation Files</u></h4>
+            <p>There are two ways to store translation files. The first method is storing it inside ..wp-content/themes/<b>{theme-name}</b>/languages/ folder, and the second method is storing it inside ../wp-content/languages/themes folder.</p>
+            <ol>
+	            <li>
+		            <p><b>Method (1)</b></p>
+		            <p>The location of "languages" folder in ../wp-content/themes/<b>{theme-name}</b>/languages/ folder, despite this method in the most popular, it has one downside. Whenever user updates the theme, the theme folder is replaced with a new updated theme folder and user loses all translated files.</p>
+		            <p>If you choose this method remember that the file structure is only the language name, for German language the file names would be <b>de_DE.mo</b> and <b>de_DE.po</b>.</p>
+		            <br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-04-27_at_14.41.45.png" />
+	            </li>
+	            <li>
+		            <p><b>Method (2)</b></p>
+		            <p>Place your translation files in ../wp-content/languages/themes/ folder, create "language" and "themes" folder inside it.</p>
+		            <p>If you choose to use second method, remember that the file structure is different, translation files must include the theme name, for example, if the language files are in German language, the file names would be <b>{theme-name}-de_DE.mo</b> and <b>{theme-name}-de_DE.po</b>.</p>
+		            <cite style="border: 1px solid red;color: red;padding: 10px;display: inline-block;margin: 3px 0;font-weight: 700;">IMPORTANT NOTE - Updating the theme will effect on wp-content folder. Storing translation files by this way is more safety.</cite>
+		            <br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-04-27_at_15.09.59.png" />
+	            </li>
+            </ol>
+            <hr class="separator">
+            
+            <!-- //// How To Edit .po File -->
+            
+            <h4><u>How To Edit .po File</u></h4>
+            <ol>
+	            <li>Download <a href="http://poedit.net/">POEdit</a> software.</li>
+	            <li>Open <b>default.po</b> file in POEdit.
+		            <br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-04-27_at_15.41.19.png" />
+	            </li>
+	            <li>Select the line you want to translate. In the lower section of the POEdit window, you can add the translation.
+		            <br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-04-27_at_15.54.56.png" />
+	            </li>
+	            <li>When you translate all your needed text strings, save the file with language code. For German language the file names would be <b>de_DE.po</b>.</li>
+            </ol>
+            <hr class="separator">
+            
+            <!-- //// WPML -->
+            
+            <h4><u>WPML</u></h4>
+            <p>If you plan to use the theme for multilingual plugin we recommend you to use <a href="https://wpml.org/?aid=28472&affiliate_key=3UUnf7uVPJmI">WPML</a> plugin, if you have any questions or issues, please check the links below. </p>
+            <ol>
+	            <li><b>WPML Plugin</b> - running fully multilingual websites with WordPress, <a href="https://wpml.org/?aid=28472&affiliate_key=3UUnf7uVPJmI">download</a> the plugin.</li>
+	            <li><b>WPML Free Support</b> - <a href="https://wpml.org/forums/forum/english-support/">get free</a> support if you have the licensed plugin.</li>
+	            <li><b>WPML Widgets</b> - how to display different widgets per language, <a href="https://wpml.org/2011/03/howto-display-different-widgets-per-language/">see this article</a> for more information.</li>
+	            <li><b>WPML Multisite Support</b> - when you run WordPress in Multisite Mode, <a href="https://wpml.org/documentation/support/multisite-support/">see this article</a> for more information.</li>
+            </ol>
+            
+            <p>Use "Appearance" => "Theme Options" => "General Settings" => "WPML Switcher" options for WPML header navigation.</p>
+	        <p><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-04-27_at_16.20.04.png" /></p>
+	        <p><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-04-27_at_16.20.40.png" /></p>
+	        <hr class="separator">
+	        
+	        <!-- //// WooCommerce -->
+	        
+	        <h4><u>WooCommerce</u></h4>
+	        <p>For Creating your online shop, you need to install free <a href="https://wordpress.org/plugins/woocommerce/">WooCommerce</a> plugin. Please take a look at the links below that have information how to use WooCommerce.</p>
+            <ol>
+	            <li><b>WooCommerce Plugin</b> - is a powerful, extendable eCommerce plugin that helps you sell anything, <a href="https://wordpress.org/plugins/woocommerce/">download</a> the plugin.</li>
+	            <li><b>WooCommerce Documentation</b> - getting started with WooCommerce plugin<a href="http://docs.woothemes.com/documentation/plugins/woocommerce/woocommerce-user-guide/getting-started/">more details</a>.</li>
+	            <li><b>WooCommerce Shortcodes</b> - shortcodes included with WooCommerce, <a href="http://docs.woothemes.com/document/woocommerce-shortcodes/">more details</a>.</li>
+            </ol>
+            <hr class="separator">
+            
+            <!-- //// Install WooCommerce -->
+            
+            <h4><u>Install WooCommerce</u></h4>
+            
+            <ol>
+	            <li>Go to "Plugin" section and click on the "Add New" button at the top of the page.</li>
+	            <li>Enter "WooCommerce" in the search field, choose the "WooCommerce – excelling eCommerce" plugin and install it.</li>
+	            <li>After plugin activation you will see notification message to install pages, click to install default shop pages.
+		            <br><cite style="border: 1px solid red;color: red;padding: 10px;display: inline-block;margin: 3px 0;font-weight: 700;">IMPORTANT NOTE - <b>Don't</b> install WooCommerce pages, just skip this message if you plan to import dummy data.</cite>
+	            </li>
+	            <li>WooCommerce plugin automatically creates the necessary shop pages. If you need to reassign these pages go to "WooCommerce" => "Settings".</li>
+            </ol>
+            <hr class="separator">
+            
+            <!-- //// Shop Images - Catalog Images, Single Product Image and Product Thumbnails -->
+            
+            <h4><u>Shop Images - Catalog Images, Single Product Image and Product Thumbnails</u></h4>
+            <p>"Catalog Images" are images on the shop page and for shortcodes. "Single Product Image" is the image on the single product pages. "Product Thumbnails" are thumbnails below product image and product thumbnails for widgets. </p>
+            <cite style="border: 1px solid red;color: red;padding: 10px;display: inline-block;margin: 3px 0;font-weight: 700;">IMPORTANT NOTE - This method only if you want to use Woocommerce settings for shop images.</cite>
+            <ol>
+	            <li>Navigate to "Theme Options" => "Shop Settings".</li>
+	            <li>Select "woocommerce image size" option for "Catalog Images", "Single Product Image" or "Product Thumbnails".<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-04-30_at_17.05.32.png" /></li>
+	            <li>Go to "WooCommerce" => "Settings" => "Products" => "Display"<br><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-04-30_at_12.29.15.png" /></li>
+	            <li>When you make changes to "Catalog Images", "Single Product Image" or "Product Thumbnails" images sizes and save it, you may need to regenerate your shop images using the <a href="https://wordpress.org/plugins/regenerate-thumbnails/">"Regenerate Thumbnails"</a> plugin.</li>
+            </ol>
+            <hr class="separator">
+            
+            <!-- //// Widget Logic -->
+            
+            <h4><u>Widget Logic</u></h4>
+            <p>Widget Logic lets you control on which pages widgets appear using WP's conditional tags. Please take a look at the links below that have information how to use WooCommerce.</p>
+            <ol>
+	            <li><b>Widget Logic Plugin</b> - plugin lets you control the pages that the widget will appear on, <a href="https://wordpress.org/plugins/widget-logic/">download</a> the plugin.</li>
+	            <li><b>Widget Logic Codes</b> - learn how to use Widget Logic, <a href="https://wordpress.org/plugins/widget-logic/other_notes/">more details</a>.</li>
+            </ol>
+            <hr class="separator">
+            
+            <!-- //// Simple Facebook Plugin -->
+            
+            <h4><u>Simple Facebook Plugin</u></h4>
+            <p>Plugin allows you to integrate Facebook Like Box into your WordPress site using Widgets or Shortcodes.</p>
+            <ol>
+	            <li><b>Widget Logic Plugin</b> - plugin allows you to integrate Facebook Like Box into your WordPress site, <a href="https://wordpress.org/plugins/simple-facebook-plugin/">download</a> the plugin.</li>
+	            <li><b>Plugin Documentation</b> - learn how to install this plugin, <a href="http://plugins.topdevs.net/simple-facebook-plugin/wordpress-facebook-widget/">more details</a>.</li>
+            </ol>
+            <p><img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-04-27_at_17.46.43.png" /></p>
+
+        </section>
+        
+		<!-- // Support -->
+        
+        <section id="support">
+            <h3>Support</h3><hr class="notop">
+            <p>All our themes come with free support we have <a href="https://lpdthemes.ticksy.com/">ticket system</a> to handle your requests. Support is limited to questions regarding the theme’s features or problems with the theme. We don't do customizations for code or third-party plugins. We can't assist with installing the theme for you. Knowing this, we kindly ask that support requests are not demanded, we aren't here to teach CSS, HTML or PHP there are many tuts for this. We are here to support our theme and fix the problem if the theme has it. If you need to hire someone for customization work we recommend to use <a href="https://studio.envato.com/">Envato Studio</a>.</p>
+            
+			<ol>
+				<li>Go to our <a href="https://lpdthemes.ticksy.com/">support center</a> and register your account.</li>
+				<li>Navigate to "Submit a Ticket" for a support request. <a href="https://lpdthemes.ticksy.com/article/3892/">Find purchase code</a>.</li>
+				<li>Please provide us a link to the page where it isn't working something, include your Wordpress login (wp-admin) and disable all your 3rd party plugins for quick and smooth support.</li>
+			</ol>
+			
+			<cite style="border: 1px solid red;color: red;padding: 10px;display: inline-block;margin: 3px 0;font-weight: 700;">IMPORTANT NOTE - For the fastest way to get support please: A.) provide us a link to the page where it isn't working something B.) include your Wordpress login (wp-admin) C.) disable all your 3rd party plugins.</cite>
+        </section>
+  
+        <!-- // Purchase Code -->
+        
+        <section id="purchase_code">
+        	<h3>Purchase Code</h3><hr class="notop">
+			<p>Themeforest provides purchase code for each purchased item. Use this code for support service verification and for verification to receive automatic theme updates.</p>
+			<h4><u>Where To Find The Code</u></h4>
+			<ol>
+				<li>Login into your Themeforest account, navigate to the top right corner to access the dropdown and select the "Downloads".</li>
+				<li>Find the theme purchase in the "Downloads".</li>
+				<li>Find "Download" button, download one of license certificate and open the file to find theme purchase code.</li>
+			</ol>
+			<img style="max-width:100%;height:auto;border: 5px solid #fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);border-radius: 3px;margin: 2px 0;" src="http://support.lpd-themes.com/theme-docs/456sailing/Screen_Shot_2015-04-24_at_12.47.49.png" />
+        </section>
+        
+        <!-- // Change Log -->
+        
+        <section id="change_log">
+	        <h3>Change Log</h3><hr class="notop">
+	        <p>You can always view the most recent update information in the <a href="http://themes.lpd-themes.com/changelog/cl_456sailing.txt">change log text</a> file.</p>
+	        <iframe src="http://themes.lpd-themes.com/changelog/cl_456sailing.txt" width="100%" height="200"></iframe>
+        </section>
+        
+	</div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+/*
+==================================================
+
+	Theme Name: 456 Sailing v1.3.5
+	Theme URI: http://www.lpd-themes.com
+	Description: 456 Sailing Premium WooCommerce Theme
+	Author: lpd-themes
+	Author URI: http://support.lpd-themes.com
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Version: 1.3.5
+
+
+================================================== */
+
+
+@import "assets/css/normalize.css";
+@import "assets/css/bootstrap.css";
+@import "assets/css/application.css";
+@import "assets/css/color.css";
+@import "assets/css/font.css";
+@import "assets/css/font-weight.css";
+@import "assets/menu/menu3d.css";
+@import "assets/menu/animate.css";
+@import "assets/css/picons-social.css";
